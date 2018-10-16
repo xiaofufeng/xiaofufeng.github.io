@@ -1,0 +1,497 @@
+HKE_inspection_defect_code,defect_section_en,defect_type,defect_description_en,defect_tips_description_en,,,,,
+1BMXQ,Main Switch,EO,"Departure:
+Circuit breaker inserted in neutral circuit not inherently linked to cut all live conductors.","Rectification Tips:
+Replace the breaker by a linked type circuit breaker.",,,,,
+1BSVE,main switch,Electricity ordinance,"Departure:
+Insulation resistance less than 1 mega ohm.","Rectification Tips:
+Carry out a full check on the circuit(s)/main wire(s) in question to find out the probable problem(s)/cause(s), and then arrange rectification.",,,,,
+1BXWN,Main switch,Electricity Ordinance,"Departure:
+Weatherproof outdoor cubicle for housing main switch and distribution board not provided.","Rectification Tips:
+Provide a weatherproof outdoor cubicle for housing the main switch and distribution board.",,,,,
+1CDQL,MS,Electricity Ordinance,"Departure:
+Main switch live parts not properly enclosed or insulated.","Rectification Tips:
+Main switch live parts shall be properly enclosed or insulated.",,,,,
+1CIXI,Main Switch,,"Departure:
+Main cables not mechanically protected.","Rectification Tips:
+Main cables shall be mechanically protected.",,,,,
+1CPRL,Main Switch,Electricity Ordinance,"Departure:
+Protective conductors/earthing conductors undersized.","Rectification Tips:
+Replace the protective conductors/earthing conductors of sufficient size.",,,,,
+1CWQS,Main Switch,EO,"Departure:
+Category 2 circuits not segregated from circuits of other categories.","Rectification Tips:
+Segregate Category 2 circuits from circuits of other categories.",,,,,
+1DLXF,MS,Electricity Ordinance,"Departure:
+A label indicating in English and Chinese ""Safety Electrical Connection - Do not Remove"" at all main earthing and bonding connections not provided.","Rectification Tips:
+1. Warning notice should comply with the requirements of Code 17B of the COP for the Electricity (Wiring) Regulations.
+2. Permanently fix the label at or near the point of connection of every earthing conductor to an earth electrode, and at or near each main bonding.",,,,,
+1EIXF,Main Switch,Electricity Ordinance,"Departure:
+Earth electrode (with inspection pit) not provided.","Rectification Tips:
+Inspection pit shall be provided for accessing the underground test terminal.",,,,,
+1ELVE,Main Switch,Electricity ordinance,"Departure:
+Earth loop impedance above permissible value.","Rectification Tips:
+1. Replace the main switch of appropriate type which could match with the earth fault loop impedance of the installation.
+2. Improve the earth fault loop impedance so as to match with the required standard.",,,,,
+1EMXC,Main Switch,Electricity Ordinance,"Departure:
+Customer's earthing system not bonded to Company's earthing terminal with removable link or equivalent means for isolation.","Rectification Tips:
+Install the link box and make connection by 150 mm2 Cu cable / 2 x 1"" x 1/8"" Cu tape with green/yellow colour sheath according to the provided drawing.",,,,,
+1FHXM,Main switch,Electricity Ordinance,"Departure:
+Fuse installed in neutral circuit.","Rectification Tips:
+No fuse shall be installed in neutral circuit.",,,,,
+1MWBJ,Main Switch,Electricity Ordinance,"Departure:
+The main cable defective.","Rectification Tips:
+Defective main cable shall be rectified.",,,,,
+1MWIE,MS,EO,"Departure:
+Main cable without phase identification.","Rectification Tips:
+1. Provide permanent phase identification at the main cable.
+2. For 3-ph. installation – “Brown/Black /Grey/Blue”, “L1/L2/L3/N” or both.
+3. For 1-ph. installation – “Brown & Blue” and “L1/L2/L3&N”.",,,,,
+1MWPE,Main switch,Electricity Ordinance,"Departure:
+Main cable connected up with incorrect polarity.","Rectification Tips:
+Connect the main cable in correct polarity.",,,,,
+1MWRH,main switch,Electricity Ordinance,"Departure:
+Main cable undersized when compared to main switch rating.","Rectification Tips:
+Size of the main cable shall match with the main switch rating.",,,,,
+1MZDJ,Main Switch,Electricity ordinance,"Departure:
+The meter board wirings defective.","Rectification Tips:
+Defective meter board wirings shall be rectified.",,,,,
+1NLXF,Main Switch,Electricity Ordinance,"Departure:
+Copper link not installed in neutral circuit at main switch.","Rectification Tips:
+1. Use 4-pole switch or 
+2. For 3-pole linked switch or circuit breaker, a link shall be inserted in the neutral conductor and securely fixed by bolts or screws.",,,,,
+1PPTG,Main Switch,Electricity Ordinance,"Departure:
+Main incoming water/gas pipe not bonded to earth.","Rectification Tips:
+Main incoming water/gas pipe shall be effectively bonded to earth.",,,,,
+1RDVF,Main Switch,Electricity Ordinance,"Departure:
+RCD not installed as required.","Rectification Tips:
+RCD shall be installed as required.",,,,,
+1SCFD,Main Switch,Electricity Ordinance,"Departure:
+Change-over device defective.","Rectification Tips:
+Defective change-over device shall be rectified.",,,,,
+1SDXF,MS,Electricity Ordinance,"Departure:
+Double-pole main switch not installed for single phase installation.","Rectification Tips:
+Replace the single pole switch by a double-pole type switch.",,,,,
+1SMBJ,Main Switch,Electricity Ordinance,"Departure:
+Main switch (including all associated protective devices) defective.","Rectification Tips:
+Defective main switch and all associated protective devices shall be rectified.",,,,,
+1SMXC,Main switch,Electricity Ordinance,"Departure:
+Main switch exposed metal parts not earthed.","Rectification Tips:
+Main switch exposed metal parts shall be effectively bonded to earth.",,,,,
+1SWSL,Main Switch,Electricity Ordinance,"Departure:
+Main switch with inadequate short circuit breaking capacity.","Rectification Tips:
+1. Short circuit breaking capacity of the switch directly connected to transformer or underground cable shall be at least 40kA.
+2. For details, please refer to the COP for the Electricity (Wiring) Regulations.",,,,,
+1BCIF,Rising Mains,EO,"Departure:
+Busbar chamber and riser not provided with phase identification.","Rectification Tips:
+Busbar chamber and riser shall be provided with phase identification.",,,,,
+1CPRB,RM,Electricity Ordinance,"Departure:
+Protective conductor for the rising mains smaller than 70sq.mm. Cu or equivalent.","Rectification Tips:
+Replace the protective conductor by 70sq.mm. Cu or equivalent.",,,,,
+1CYML,Rising Mains,Electricity ordinance,"Departure:
+Lateral mains undersized when compared to the rating of the protective device.","Rectification Tips:
+Lateral mains size shall match with the rating of the protective device.",,,,,
+1FCIF,Rising Mains,Electricity Ordinance,"Departure:
+Cutout fuse box/switch not provided with phase identification.","Rectification Tips:
+Phase identification shall be provided to the cutout fuse box/switch.",,,,,
+1NBXF,RM,Electricity Ordinance,"Departure:
+Suitable neutral/earth block not installed for lateral mains at each floor.","Rectification Tips:
+Suitable neutral/earth block shall be installed for lateral mains at each floor.",,,,,
+1RMML,Rising Mains,Electricity Ordinance,"Departure:
+Rising mains undersized when compared to the ratings of the protective device.","Rectification Tips:
+Rising mains size shall match with the ratings of the protective device.",,,,,
+1RMQL,Rising Mains,Electricity Ordinance,"Departure:
+Riser live parts not properly enclosed/insulated.","Rectification Tips:
+Riser live parts shall be enclosed/insulated properly.",,,,,
+1RSBJ,RM,Electricity ordinance,"Departure:
+Instantaneous trip RCD used as riser switch or cutout of multi-customer premises.","Rectification Tips:
+1. Use earth fault relay associated with protection C.T.s, or
+2. Use RCD with time delay.",,,,,
+1RTXF,Rising Mains,Electricity Ordinance,"Departure:
+3-phase 4-wire lateral mains tee-off from rising mains not provided at each floor.","Rectification Tips:
+3-phase 4-wire lateral mains tee-off from rising mains shall be provided at each floor.",,,,,
+1AECI,Final Circuits,Electricity Ordinance,"Departure:
+Lighting fitting and stationary appliances having a heating element inside bathroom not positioned out of the reach by a person using a shower or fixed bath.","Rectification Tips:
+Lighting fitting and stationary appliances having a heating element inside bathroom shall be positioned out of the reach by a person using a shower or fixed bath.",,,,,
+1AEQI,Final Circuits,Electricity Ordinance,"Departure:
+Live parts not inside enclosure or behind barrier or insulated.","Rectification Tips:
+Live parts shall be placed inside enclosure or behind barrier or insulated.",,,,,
+1AEWN,Final Circuits,EO,"Departure:
+Equipment exposed to weather not of weatherproof type.","Rectification Tips:
+Equipment exposed to weather shall be weatherproof type.",,,,,
+1AMJF,Final Circuits,Electricity Ordinance,"Departure:
+Local switch for motor not provided to cut off all live conductors.","Rectification Tips:
+Local switch for motor shall be provided to cut off all live conductors.",,,,,
+1BRXM,Final Circuits,Electricity Ordinance,"Departure:
+Control switch other than approved means installed in bathroom.","Rectification Tips:
+1. Control switch installed in bathroom shall be approved means.
+2. Use of cord-operated switch is an acceptable practice.",,,,,
+1BXXC,Final Circuits,Electricity Ordinance,"Departure:
+Metal casing of equipment not earthed.","Rectification Tips:
+Metal casing of equipment shall be effectively bonded to earth.",,,,,
+1CFXE,Final Circuits,Electricity Ordinance,"Departure:
+Flexible conduit used as circuit protective conductors.","Rectification Tips:
+Add a circuit protective conductor.",,,,,
+1CPML,Final Circuits,Electricity Ordinance,"Departure:
+Protective conductor undersized.","Rectification Tips:
+Protective conductor should have sufficient size.",,,,,
+1CTXE,Final Circuits,EO,"Departure:
+15A socket outlet (non-industrial type) not connected in an exclusive radial circuit with appropriate fuse or MCB.","Rectification Tips:
+15A socket outlet (non-industrial type) shall be connected in an exclusive radial circuit with appropriate fuse or MCB.",,,,,
+1CTXF,Final Circuits,Electricity Ordinance,"Departure:
+5A socket outlet (non-industrial type) not connected in an exclusive radial circuit with appropriate fuse or MCB.","Rectification Tips:
+5A socket outlet (non-industrial type) shall be connected in an exclusive radial circuit with appropriate fuse or MCB.",,,,,
+1DBEF,Final Circuits,Electricity Ordinance,"Departure:
+Proper terminal connectors for circuit protective conductors not provided at distribution board.","Rectification Tips:
+Proper terminal connectors for circuit protective conductors shall be provided at distribution board.",,,,,
+1DBNE,Final Circuits,Electricity Ordinance,"Departure:
+Durable labels not provided at distribution board.","Rectification Tips:
+Durable labels shall be provided at distribution board.",,,,,
+1DBQI,Final Circuits,Electricity Ordinance,"Departure:
+Distribution board not provided with proper phase barrier and insulation screen.","Rectification Tips:
+Install proper phase barrier/insulation screen to the Distribution board.",,,,,
+1DBXF,Final Circuits,Electricity Ordinance,"Departure:
+Protective conductor not installed at distribution board.","Rectification Tips:
+Protective conductor shall be installed at distribution board.",,,,,
+1ELHF,Final Circuits,EO,"Departure:
+Earth fault loop impedance for distribution board above permissible value.","Rectification Tips:
+1. Replace the main switch of appropriate type which could match with the earth fault loop impedance of the installation.
+2. Improve the earth fault loop impedance so as to meet the required standard.",,,,,
+1ESZC,Final Circuits,Electricity Ordinance,"Departure:
+Supplementary bonding not provided.","Rectification Tips:
+Supplementary bonding shall be provided.",,,,,
+1FHCD,Final Circuits,Electricity Ordinance,"Departure:
+Protective device not matched with the rated conductor in the circuit.","Rectification Tips:
+Protective device shall match with the rated conductor in the circuit.",,,,,
+1FHNC,Final Circuits,Electricity Ordinance,"Departure:
+Fuse installed in neutral circuit at distribution board.","Rectification Tips:
+Fuse should not be installed in neutral circuit at distribution board.",,,,,
+1LEPB,Final Circuits,Electricity Ordinance,"Departure:
+Phase conductor not connected to the centre contact of the Edison-type screwed lamp holder.","Rectification Tips:
+Phase conductor shall be connected to the centre contact of the Edison-type screwed lamp holder.",,,,,
+1LUXC,Final circuits,Electricity Ordinance,"Departure:
+Metal box for mounting lighting switch not earthed.","Rectification Tips:
+Metal box for mounting lighting switch shall be effectively boned to earth.",,,,,
+1OOKB,Final Circuits,Electricity ordinance,"Departure:
+Circuit protective conductors of ring 13A socket outlet circuits not run in the form of ring.","Rectification Tips:
+Circuit protective conductors of ring 13A socket outlet circuits shall be run in the form of ring.",,,,,
+1OSEB,FC,Electricity Ordinance,"Departure:
+Individual circuit protective conductor not provided for every 13A/15A socket outlet.","Rectification Tips:
+Individual circuit protective conductor shall be provided for every 13A/15A socket outlet.",,,,,
+1OSEC,Final circuits,Electricity Ordinance,"Departure:
+Socket outlet and/or associated metal box not earthed.","Rectification Tips:
+Socket outlet and/or associated metal box shall be effectively earthed.",,,,,
+1OSPK,FC,EO,"Departure:
+Wiring at socket outlet connected up with incorrect polarity.","Rectification Tips:
+Wiring at socket outlet shall be reconnected up with correct polarity.",,,,,
+1RBXM,Final Circuits,Electricity Ordinance,"Departure:
+Shaver supply units not complying with approved pattern.","Rectification Tips:
+Shaver supply units shall comply with approved pattern.",,,,,
+1RBXZ,Final Circuits,Electricity Ordinance,"Departure:
+Socket outlet in bathroom not complying with installation standard.","Rectification Tips:
+Socket outlet in bathroom shall comply with installation standard.",,,,,
+1RDSF,FC,Electricity Ordinance,"Departure:
+RCD of 30 mA operating current not provided for socket outlet/circuit supplying equipment (in bathroom and within 2.25m height) with exposed conductive parts.","Rectification Tips:
+RCD of 30 mA operating current shall be provided for socket outlet/circuit supplying equipment (in bathroom and within 2.25m height) with exposed conductive parts.",,,,,
+1SWPK,Final circuits,Electricity Ordinance,"Departure:
+Wiring at switch connected up with incorrect polarity.","Rectification Tips:
+Wiring at switch shall be reconnected up with correct polarity.",,,,,
+1SWRI,Final Circuits,EO,"Departure:
+Motor not provided with means to prevent unexpected restarting that might cause danger.","Rectification Tips:
+Motor shall be provided with means to prevent unexpected restarting that might cause danger.",,,,,
+1INTE,Other,Electricity Ordinance,"Departure:
+Poor workmanship.","Rectification Tips:
+Improve workmanship to meet the Electricity Ordinance.",,,,,
+1INXE,Other,Electricity Ordinance,"Departure:
+Miscellaneous uncommon defect.","Rectification Tips:
+Rectify the defect to meet the Electricity Ordinance.",,,,,
+2ADXP,Pre-Inspection Check,Supply Rule,"Departure:
+Incorrect service address.","Rectification Tips:
+Confirm the correct service address and amend with legal document at customer centre.",,,,,
+2AEZE,Pre-Inspection Check,Supply Rule,"Departure:
+Part of the installation not ready for inspection.","Rectification Tips:
+All the installation shall be confirmed ready for inspection.",,,,,
+2AILF,PIC,Supply Rule,"Departure:
+Service address identification label not fixed at meter tails.","Rectification Tips:
+Service address identification label shall be fixed at meter tails.",,,,,
+2CCCS,Pre-Inspection Check,Supply Rule,"Departure:
+Cross connection check sheet not provided.","Rectification Tips:
+Conduct cross connection check and provide a duly completed ""Cross Connection Check Sheet"".",,,,,
+2DCXF,Pre-Inspection Check,SR,"Departure:
+Copy of Work Completion Certificate not provided.","Rectification Tips:
+A duly completed Copy of Work Completion Certificate - WR1 shall be provided before inspection.",,,,,
+2DFRM,PIC,Supply Rule,"Departure:
+Separate application for riser installation inspection not provided.","Rectification Tips:
+Separate application for riser installation inspection shall be provided.",,,,,
+2DOXP,Pre-Inspection Check,Supply Rule,"Departure:
+Service address not confirmed and/or amended with legal document at Customer Centre.","Rectification Tips:
+Confirm the correct service address and amend with legal document at customer centre.",,,,,
+2INAA,Pre-Inspection Check,SR,"Departure:
+Whole installation inaccessible for inspection.","Rectification Tips:
+Whole installation shall be accessible for inspection.",,,,,
+2INZB,PIC,,"Departure:
+Load transfer not completed.","Rectification Tips:
+Load transfer shall be completed.",,,,,
+2INZE,Pre-Inspection Check,Supply Rule,"Departure:
+Whole installation not ready for inspection.","Rectification Tips:
+Whole installation shall be confirmed ready prior to inspection.",,,,,
+2PIRE,Pre-Inspection Check,Supply Rule,"Departure:
+Supply arrangement to be confirmed.","Rectification Tips:
+Supply arrangement shall be confirmed prior to inspection.",,,,,
+2AEFA,Main Switch,Supply Rule,"Departure:
+Shutdown of supply not arranged for functional check of ACB/RCD/changeover.","Rectification Tips:
+Shutdown of supply shall be arranged for functional check of ACB/RCD/changeover.",,,,,
+2AEXP,Main Switch,Supply Rule,"Departure:
+Catalogue of equipment not provided.","Rectification Tips:
+Catalogue of equipment shall be provided.",,,,,
+2BAFI,Main Switch,Supply Rule,"Departure:
+Functional check of main incomer not performed.","Rectification Tips:
+Functional check of main incomer during inspection.",,,,,
+2BMOF,Main Switch,SR,"Departure:
+Non draw-out type circuit breaker installed when obtaining supply directly from HK Electric transformer.","Rectification Tips:
+1. Use draw-out type circuit breaker, or
+2. Use plug-in type circuit breaker, or 
+3. Use fused switch.",,,,,
+2BTLE,Main switch,Supply Rule,"Departure:
+The busbar between transit block and main switch exceed 10 metres.","Rectification Tips:
+1. Shorten the busbar route to within 10 metres.
+2. Add a main switch within 10 metres.",,,,,
+2DASF,Main switch,Supply Rule,"Departure:
+Label not provided on multi-setting main switch to indicate the rated setting.","Rectification Tips:
+Label shall be provided on multi-setting main switch to indicate the rated setting.",,,,,
+2DOEP,Main Switch,Supply Rule,"Departure:
+Information not provided to prove grading of protection system with HK Electric system.","Rectification Tips:
+Provide the protection setting of main incomer to confirm it can be graded properly with HK Electric infeed protection.",,,,,
+2DORP,Main Switch,Supply Rule,"Departure:
+Confirmation document for load limitation and transference of all existing wirings to the new HK Electric service cutout not provided by registered customer.","Rectification Tips:
+A Duly completed C.I. 136 form (Undertaking on Temporary Load Limitation and Transfer to New Supply Source) shall be provided by the registered customer.",,,,,
+2DWXF,Main Switch,SR,"Departure:
+As fitted wiring diagram showing the main distribution system not provided in the main switchroom.","Rectification Tips:
+As fitted wiring diagram showing the main distribution system shall be provided in the main switchroom.",,,,,
+2GNXF,Main Switch,Supply Rule,"Departure:
+Interlock scheme for standby generator not installed.","Rectification Tips:
+Interlock scheme for standby generator shall be installed.",,,,,
+2HELE,Main Switch,Supply Rule,"Departure:
+The cables between HK Electric service cutout and main switch exceed 3 metres.","Rectification Tips:
+1. Shorten the cable route to within 3 metres.
+2. Add a main switch within 3 metres.",,,,,
+2HERF,Main Switch,Supply Rule,"Departure:
+Building main switch directly above HK Electric service cutout not installed.","Rectification Tips:
+Building main switch  of appropriate rating directly above HK Electric service cutout shall be installed.",,,,,
+2HETM,Main Switch,Supply Rule,"Departure:
+Cables terminated at HK Electric service cutout exceed two sets.","Rectification Tips:
+1. Add a busbar chamber directly above the HK Electric service cutout;
+2. Re-arrange the installations connected to HK Electric service cutout;
+
+So that cables terminated at HK Electric service cutout would not exceed two sets.",,,,,
+2HXLE,Main Switch,Supply Rule,"Departure:
+The cables between HK Electric transformer and main switch exceed 20 metres.","Rectification Tips:
+1. Shorten the cable route to within 20 metres.
+2. Add a main switch within 20 metres.",,,,,
+2ILXD,Main Switch,Supply Rule,"Departure:
+Interlock scheme for interconnection of two or more supply sources not function properly.","Rectification Tips:
+Verify interlock scheme for interconnection of two or more supply sources for correct function.",,,,,
+2ILXF,Main Switch,Supply Rule,"Departure:
+Interlock scheme for interconnection of two or more supply sources not installed.","Rectification Tips:
+Interlock scheme for interconnection of two or more supply sources shall be installed between the corresponding main incomers and interconnecting switch.",,,,,
+2INFA,Main Switch,Supply Rule,"Departure:
+Supply not available to complete the inspection.","Rectification Tips:
+Supply shall be available prior to inspection.",,,,,
+2ITVA,MS,Supply Rule,"Departure:
+Shutdown of supply not arranged for insulation resistance check.","Rectification Tips:
+Shutdown of supply shall be arranged for insulation resistance check.",,,,,
+2LMXB,Main Switch,Supply Rule,"Departure:
+The G/F lateral mains not connected directly to HK Electric service cutout.","Rectification Tips:
+The G/F lateral mains shall be connected directly to HK Electric service cutout.",,,,,
+2MBXF,Main Switch,Supply Rule,"Departure:
+Main switch not installed immediately before HK Electric meter.","Rectification Tips:
+Main switch of appropriate type and rating shall be installed immediately before HK Electric’s meter.",,,,,
+2MEZP,Main Switch,Supply Rule,"Departure:
+Document for disconnection of temporary meter not provided.","Rectification Tips:
+A duly completed termination form (Application for Termination of Electricity Account) for disconnection of temporary meter shall be provided.",,,,,
+2MWRL,MS,Supply Rule,"Departure:
+Incorrect size for meter wires for direct connected type meter.","Rectification Tips:
+1. The size should not be less than 4sq.mm Cu. cable, or
+2. The size should not be greater than the parameters listed above:",,,,,
+2MWTK,Main Switch,Supply Rule,"Departure:
+Main wires not properly terminated at HK Electric service cutout.","Rectification Tips:
+1. Main wires shall be properly terminated at HK Electric service cutout.
+2. Circular and multi-stranded copper conductor cable shall be used.
+3. The minimum size of copper conductor to be terminated onto HK Electric service cutout is 50mm sq.
+4. Should the main wires be less than this size, a copper collar of 50mm sq. shall be properly installed at the terminals.",,,,,
+2MWXF,Main Switch,Supply Rule,"Departure:
+Main wires not connected to HK Electric supply source.","Rectification Tips:
+1. Main wires shall be properly terminated at HK Electric supply sources.
+2. Circular and multi-stranded copper conductor cable shall be used.",,,,,
+2RMLH,Main Switch,Supply Rule,"Departure:
+C.I. form 140 (confirmation of agreement from owner of rising mains for connection of electrical installation with an increased current demand) not provided.","Rectification Tips:
+A duly completed C.I. 140 form (Confirmation of Agreement from Owner of Rising Mains for Connection of Electrical Installation with An Increased Current Demand) shall be provided.",,,,,
+2SCFI,main switch,Supply Rule,"Departure:
+Functional test of changeover device not performed.","Rectification Tips:
+Perform functional test of changeover device during inspection.",,,,,
+2SFXF,main switch,Supply Rule,"Departure:
+4-pole switch not used to interconnect standby generator and normal supply source/two or more sources of supply.","Rectification Tips:
+Use a 4-pole changeover switch with mechanically and electrically interlocked.",,,,,
+2SMLA,Main Switch,Supply Rule,"Departure:
+Load limitation device not provided.","Rectification Tips:
+Load limitation device shall be installed.",,,,,
+2SMSP,MS,Supply Rule,"Departure:
+Information not provided to prove breaking capacity of main switch.","Rectification Tips:
+Information shall be provided to prove breaking capacity of main switch.",,,,,
+2SMXF,Main Switch,Supply Rule,"Departure:
+Length of main cable between main switch and whole current type metering point exceed 3 metres.","Rectification Tips:
+1. Shorten the cable route to within 3 metres.
+2. Add a main switch within 3 metres.",,,,,
+2SMXP,Main Switch,Supply Rule,"Departure:
+Main switch rating different from the rating on application form. ","Rectification Tips:
+1. Update the main switch rating in customer centre.
+2. Change the main switch to match that on application form.",,,,,
+2SOOE,Main Switch,Supply Rule,"Departure:
+The switchroom/meter room used as a store.","Rectification Tips:
+The switchroom/meter room could not be used as a store. All debris and un-necessary materials must be removed.",,,,,
+2AMRE,Final Circuits,Supply Rule,"Departure:
+Motor of 3.8 kW or greater (overhead line supply)/11 kW or greater (non overhead line supply) without suitable starter to limit the starting current to 2.5 times the running current.","Rectification Tips:
+Install a suitable starter to limit the starting current to 2.5 times the running current.",,,,,
+2AMRJ,Final Circuits,Supply Rule,"Departure:
+Single phase motor greater than 1.5 kW (overhead line supply)/2.2 kW (non overhead line supply)","Rectification Tips:
+Use motor of smaller rating to meet the requirement.",,,,,
+2CPXF,Final Circuits,Supply Rule,"Departure:
+Capacitors for discharge lamps to improve power factor not installed. ","Rectification Tips:
+Capacitors for discharge lamps to improve power factor shall be installed. ",,,,,
+2BOWF,Meter Position,Supply Rule,"Departure:
+Outdoor weatherproof cubicle to accommodate tariff meter not provided.","Rectification Tips:
+Outdoor weatherproof cubicle shall be provided to accommodate tariff meter.",,,,,
+2CBIE,MP,Supply Rule,"Departure:
+Busbar inside C.T. chamber without phase identification.","Rectification Tips:
+Phase identification shall be provided for the busbar inside C.T. chamber.",,,,,
+2CBXL,Meter Position,Supply Rule,"Departure:
+Busbar inside C.T. chamber not insulated.","Rectification Tips:
+Busbar inside C.T. chamber shall be insulated.",,,,,
+2CEXF,Meter Position,Supply Rule,"Departure:
+Voltage wires for C.T. operated meter not provided/not connected at the load side.","Rectification Tips:
+Connect the voltage wires to the load side of HK Electric's metering CTs.",,,,,
+2CEXJ,MP,Supply Rule,"Departure:
+Circular copper strand conductor not used for termination into the direct-connected type meter.","Rectification Tips:
+Replace by circular and multi-stranded copper conductor cable.",,,,,
+2DAXF,Meter Position,Supply Rule,"Departure:
+Tidy, permanent and securely fixed address label not provided for meter board/main switch/meter cubicle.","Rectification Tips:
+1. Provide a address label at the meter board which will not be blocked by the tariff meter.
+2. Write the address at the lower portion of the meter board.",,,,,
+2DOMP,Meter Position,Supply Rule,"Departure:
+C.I. form 135 (confirmation of no double metering) not provided/ Shutdown of supply not arranged for double metering check.","Rectification Tips:
+1. Arrange shutdown during inspection to confirm no double metering.
+2. Provide a duly completed C.I. 135 form (Confirmation of No Double Metering) and a schematic diagram after checking by REW and confirm no double metering before and after the metering point.",,,,,
+2MBBE,Meter Position,Supply Rule,"Departure:
+Loose meter board not securely fixed.","Rectification Tips:
+Loose meter board shall be securely fixed.",,,,,
+2MBCF,MP,Supply Rule,"Departure:
+Working clearance in front of meter less than 900mm.","Rectification Tips:
+Relocate the meter position such that a minimum working space of 900mm in front of the meter could be maintained.",,,,,
+2MBHE,Meter Position,Supply Rule,"Departure:
+Meter board position above 2.25m.","Rectification Tips:
+Relocate the meter board such that the maximum fixing height of meter board (measured from the top of meter board to floor) does not exceed 2.25m.",,,,,
+2MBLE,Meter Position,Supply Rule,"Departure:
+Meter board position below 0.9m for meter room or 2.15m for public area.","Rectification Tips:
+Relocate the meter board such that the minimum fixing height of meter board (measured from the top of meter board to floor) greater than 2.15m at public area or 0.9m at meter room respectively.",,,,,
+2MBXA,Meter Position,Supply Rule,"Departure:
+Meter position located inside customer's premises.","Rectification Tips:
+Meter position should be located at meter room or public area.",,,,,
+2MBXE,MP,Supply Rule,"Departure:
+Size of meter board not comply with HK Electric requirement.","Rectification Tips:
+Replace the meter board according to the above table.",,,,,
+2MCDJ,Meter Position,Supply Rule,"Departure:
+Meter cubicle defective.","Rectification Tips:
+Defective meter cubicle shall be rectified.",,,,,
+2MEXF,Meter Position,Supply Rule,"Departure:
+Metering equipment not installed.","Rectification Tips:
+Metering equipment shall be installed.",,,,,
+2MFCE,Meter Position,Supply Rule,"Departure:
+Side clearance for fuse holders inside C.T. chamber less than 50mm.","Rectification Tips:
+Relocate the voltage fuses and link inside C.T. chamber such that at least 50mm clearance from the side of the fuse holders could be maintained.",,,,,
+2MFXF,Meter Position,Supply Rule,"Departure:
+Fuse holders & link inside C.T. chamber not installed in accordance with HK Electric requirement.","Rectification Tips:
+Relocate the voltage fuses and link in front of the neutral conductor inside C.T. chamber.",,,,,
+2MGXR,Meter Position,Supply Rule,"Departure:
+Metering point not close to supply source.","Rectification Tips:
+1. Metering point shall be closed to supply source.
+2. Submit a duly completed C.I. 144 form (Metering Point Not Close to Source of Supply) to HK Electric for consideration.",,,,,
+2MHCF,MP,Supply Rule,"Departure:
+Working clearance in front of C.T. chamber/C.T. cum link box less than 900mm.","Rectification Tips:
+A minimum working space of 900mm in front of the C.T. chamber/C.T. cum link box should be maintained.",,,,,
+2MHEC,Meter position,Supply Rule,"Departure:
+Metallic part inside C.T. cum link box not earthed.","Rectification Tips:
+Metallic part inside C.T. cum link box shall be effectively earthed.",,,,,
+2MHGD,Meter position,Supply Rule,"Departure:
+Cable gland not installed at C.T. chamber.","Rectification Tips:
+Cable gland shall be installed at C.T. chamber.",,,,,
+2MHHE,Meter Position,Supply Rule,"Departure:
+C.T. chamber position above 2.6m.","Rectification Tips:
+The maximum fixing height of C.T. chamber/C.T. cum link box (measured from the top of C.T. chamber/C.T. cum link box to floor) should not exceed 2.6m.",,,,,
+2MHLE,Meter Position,Supply Rule,"Departure:
+C.T. chamber position below 0.9m for meter room or 2.15m for public area.","Rectification Tips:
+The minimum fixing height of C.T. chamber/C.T. cum link box (measured from the top of C.T. chamber/C.T. cum link box to floor) should be greater than 2.15m at public area or 0.9m at meter room respectively.",,,,,
+2MHXE,Meter position,Supply Rule,"Departure:
+C.T. chamber not comply with HK Electric requirement.","Rectification Tips:
+1. Replace the C.T chamber according to the above table,
+2. Use the C.T. cum link box provided by HK Electric. (Only suitable for main switch rating exceeding 125A 3-ph. and up to 400A 3-ph.).",,,,,
+2MHXF,Meter positions,Supply Rule,"Departure:
+C.T. chamber and metering wiring not installed.","Rectification Tips:
+1. Install C.T. chamber and metering wiring as required by HK Electric.
+2. For customer switchboards, which contain 600/5A or above C.T. operated meters, a Cat. 5e cable shall be supplied and installed by the customer with mechanical protection from the meter to the Tariff Meter Communication (TMC) Termination Box in the customer switchroom.",,,,,
+2MIXM,Meter Position,Supply Rule,"Departure:
+Check meter installed.","Rectification Tips:
+1. Remove the check meter.
+2. Submit a duly completed C.I. 146 form (Application for Installation of Check Meter(s) for Consumption Monitoring Purpose) to HK Electric for consideration.",,,,,
+2MJXF,Meter Position,Supply Rule,"Departure:
+Meter wirings for direct connected meter not installed.","Rectification Tips:
+Meter wirings for direct connected meter shall be installed.",,,,,
+2MLDM,Meter Position,Supply Rule,"Departure:
+Unrequired perishable meter leads not removed.","Rectification Tips:
+Unrequired perishable meter leads shall be removed.",,,,,
+2MMAA,Meter Position,Supply Rule,"Departure:
+Metering multi-core cable not surface mounted and properly fixed.","Rectification Tips:
+Metering 12-core cable shall be surface mounted and properly fixed.",,,,,
+2MSXE,Meter Position,Supply Rule,"Departure:
+Proper sealable screw not provided at C.T. chamber.","Rectification Tips:
+Proper sealable screw shall be provided at C.T. chamber.",,,,,
+2MTCR,Meter Position,Supply Rule,"Departure:
+C.T. inside C.T. chamber not installed with correct ratio.","Rectification Tips:
+Replace C.T. correct ratio.",,,,,
+2MTPE,Meter Position,Supply Rule,"Departure:
+C.T. inside C.T. chamber not installed with correct polarity.","Rectification Tips:
+The ‘P1’ side of C.T. shall be connected to the supply side of the customer’s busbar / single core.",,,,,
+2MTXK,Meter Position,Supply Rule,"Departure:
+C.T. inside C.T. chamber not securely fixed by bakelite.","Rectification Tips:
+C.T. inside C.T. chamber shall be securely fixed by bakelite.",,,,,
+2MWCE,Meter Position,Supply Rule,"Departure:
+Meter termination clearance not comply with HK Electric requirement.","Rectification Tips:
+Meter termination clearance shall be comply with HK Electric requirement.",,,,,
+2MWIS,Meter Position,Supply Rule,"Departure:
+Meter leads and tails without permanent phase identification.","Rectification Tips:
+Provide permanent phase identification at meter leads and tails in according to the above table.",,,,,
+2MWLF,Meter Position,Supply Rule,"Departure:
+Meter leads and meter tails not long enough for meter fixing.","Rectification Tips:
+Replaced by sufficient long meter leads and meter tails for meter fixing in according to the above table.",,,,,
+2MWXG,Meter Position,Supply Rule,"Departure:
+Two sets of main wires not combined into one set.","Rectification Tips:
+Only one set of main wires is allowed.",,,,,
+2OPXI,Meter Position,Supply Rule,"Departure:
+Openings in C.T. chamber not well covered.","Rectification Tips:
+Openings in C.T. chamber shall be well covered.",,,,,
+2UEXM,Meter Position,Supply Rule,"Departure:
+Unauthorized extension not removed.","Rectification Tips:
+Unauthorized extension shall be removed.",,,,,
+2FCZA,Rising Mains,Supply Rule,"Departure:
+Fuse link not installed in cutout.","Rectification Tips:
+Fuse link shall be installed in cutout.",,,,,
+2KMXF,Rising Mains,Supply Rule,"Departure:
+Master key for meter duct/room not provided.","Rectification Tips:
+Master key for meter duct/room shall be provided.",,,,,
+2LUXF,Rising Mains,Supply Rule,"Departure:
+Lighting point for meter room not provided.","Rectification Tips:
+Lighting point for meter room shall be provided.",,,,,
+2RMSF,Rising Mains,Supply Rule,"Departure:
+Local riser switch for multi-customer rising mains at each tower not installed.","Rectification Tips:
+Install local riser switch for multi-customer rising mains at each tower.",,,,,
+2INXS,Other,,"Departure:
+Miscellaneous uncommon departures.","Rectification Tips:
+Rectify the defect to meet the requirements of HK Electric's Supply Rules..",,,,,
+,,,,,,,,,

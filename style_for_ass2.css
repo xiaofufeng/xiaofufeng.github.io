@@ -1,16 +1,23 @@
 
 
-h1{margin-bottom: 0rem;
-  padding-left: 40px;
+h1{
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 0rem;
+  padding-left: 0px;
   padding-right: 5px;
   padding-bottom: 30px;
-  padding-top: 10px;}
+  padding-top: 10px;
+text-align: center;
+
+}
 
 p{
+font-family: "Times New Roman", Times, serif;
   margin-top: 0;
     margin-bottom: 0px;
     margin-left: 15px;
     padding: 5px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     padding-left: 0px;
+    text-align:left;
 }

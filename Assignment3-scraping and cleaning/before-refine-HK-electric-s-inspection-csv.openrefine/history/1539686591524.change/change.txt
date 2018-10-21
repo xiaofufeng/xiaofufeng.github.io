@@ -1,0 +1,31 @@
+3.0
+com.google.refine.model.changes.MassCellChange
+commonColumnName=defect_section_en
+updateRowContextDependencies=true
+cellChangeCount=5
+row=112
+cell=1
+old={"v":"MP"}
+new={"v":"Meter Position"}
+/ec/
+row=115
+cell=1
+old={"v":"MP"}
+new={"v":"Meter Position"}
+/ec/
+row=119
+cell=1
+old={"v":"MP"}
+new={"v":"Meter Position"}
+/ec/
+row=123
+cell=1
+old={"v":"MP"}
+new={"v":"Meter Position"}
+/ec/
+row=129
+cell=1
+old={"v":"MP"}
+new={"v":"Meter Position"}
+/ec/
+/ec/

@@ -1,0 +1,566 @@
+3.0
+com.google.refine.model.changes.MassCellChange
+commonColumnName=defect_section_en
+updateRowContextDependencies=true
+cellChangeCount=112
+row=0
+cell=1
+old={"v":"Main Switch"}
+new={"v":"Main Switch"}
+/ec/
+row=1
+cell=1
+old={"v":"main switch"}
+new={"v":"Main Switch"}
+/ec/
+row=2
+cell=1
+old={"v":"Main switch"}
+new={"v":"Main Switch"}
+/ec/
+row=4
+cell=1
+old={"v":"Main Switch"}
+new={"v":"Main Switch"}
+/ec/
+row=5
+cell=1
+old={"v":"Main Switch"}
+new={"v":"Main Switch"}
+/ec/
+row=6
+cell=1
+old={"v":"Main Switch"}
+new={"v":"Main Switch"}
+/ec/
+row=8
+cell=1
+old={"v":"Main Switch"}
+new={"v":"Main Switch"}
+/ec/
+row=9
+cell=1
+old={"v":"Main Switch"}
+new={"v":"Main Switch"}
+/ec/
+row=10
+cell=1
+old={"v":"Main Switch"}
+new={"v":"Main Switch"}
+/ec/
+row=11
+cell=1
+old={"v":"Main switch"}
+new={"v":"Main Switch"}
+/ec/
+row=12
+cell=1
+old={"v":"Main Switch"}
+new={"v":"Main Switch"}
+/ec/
+row=14
+cell=1
+old={"v":"Main switch"}
+new={"v":"Main Switch"}
+/ec/
+row=15
+cell=1
+old={"v":"main switch"}
+new={"v":"Main Switch"}
+/ec/
+row=16
+cell=1
+old={"v":"Main Switch"}
+new={"v":"Main Switch"}
+/ec/
+row=17
+cell=1
+old={"v":"Main Switch"}
+new={"v":"Main Switch"}
+/ec/
+row=18
+cell=1
+old={"v":"Main Switch"}
+new={"v":"Main Switch"}
+/ec/
+row=19
+cell=1
+old={"v":"Main Switch"}
+new={"v":"Main Switch"}
+/ec/
+row=20
+cell=1
+old={"v":"Main Switch"}
+new={"v":"Main Switch"}
+/ec/
+row=22
+cell=1
+old={"v":"Main Switch"}
+new={"v":"Main Switch"}
+/ec/
+row=23
+cell=1
+old={"v":"Main switch"}
+new={"v":"Main Switch"}
+/ec/
+row=24
+cell=1
+old={"v":"Main Switch"}
+new={"v":"Main Switch"}
+/ec/
+row=34
+cell=1
+old={"v":"Final Circuits"}
+new={"v":"Final Circuits"}
+/ec/
+row=35
+cell=1
+old={"v":"Final Circuits"}
+new={"v":"Final Circuits"}
+/ec/
+row=36
+cell=1
+old={"v":"Final Circuits"}
+new={"v":"Final Circuits"}
+/ec/
+row=37
+cell=1
+old={"v":"Final Circuits"}
+new={"v":"Final Circuits"}
+/ec/
+row=38
+cell=1
+old={"v":"Final Circuits"}
+new={"v":"Final Circuits"}
+/ec/
+row=39
+cell=1
+old={"v":"Final Circuits"}
+new={"v":"Final Circuits"}
+/ec/
+row=40
+cell=1
+old={"v":"Final Circuits"}
+new={"v":"Final Circuits"}
+/ec/
+row=41
+cell=1
+old={"v":"Final Circuits"}
+new={"v":"Final Circuits"}
+/ec/
+row=42
+cell=1
+old={"v":"Final Circuits"}
+new={"v":"Final Circuits"}
+/ec/
+row=43
+cell=1
+old={"v":"Final Circuits"}
+new={"v":"Final Circuits"}
+/ec/
+row=44
+cell=1
+old={"v":"Final Circuits"}
+new={"v":"Final Circuits"}
+/ec/
+row=45
+cell=1
+old={"v":"Final Circuits"}
+new={"v":"Final Circuits"}
+/ec/
+row=46
+cell=1
+old={"v":"Final Circuits"}
+new={"v":"Final Circuits"}
+/ec/
+row=47
+cell=1
+old={"v":"Final Circuits"}
+new={"v":"Final Circuits"}
+/ec/
+row=48
+cell=1
+old={"v":"Final Circuits"}
+new={"v":"Final Circuits"}
+/ec/
+row=49
+cell=1
+old={"v":"Final Circuits"}
+new={"v":"Final Circuits"}
+/ec/
+row=50
+cell=1
+old={"v":"Final Circuits"}
+new={"v":"Final Circuits"}
+/ec/
+row=51
+cell=1
+old={"v":"Final Circuits"}
+new={"v":"Final Circuits"}
+/ec/
+row=52
+cell=1
+old={"v":"Final Circuits"}
+new={"v":"Final Circuits"}
+/ec/
+row=53
+cell=1
+old={"v":"Final circuits"}
+new={"v":"Final Circuits"}
+/ec/
+row=54
+cell=1
+old={"v":"Final Circuits"}
+new={"v":"Final Circuits"}
+/ec/
+row=56
+cell=1
+old={"v":"Final circuits"}
+new={"v":"Final Circuits"}
+/ec/
+row=58
+cell=1
+old={"v":"Final Circuits"}
+new={"v":"Final Circuits"}
+/ec/
+row=59
+cell=1
+old={"v":"Final Circuits"}
+new={"v":"Final Circuits"}
+/ec/
+row=61
+cell=1
+old={"v":"Final circuits"}
+new={"v":"Final Circuits"}
+/ec/
+row=62
+cell=1
+old={"v":"Final Circuits"}
+new={"v":"Final Circuits"}
+/ec/
+row=76
+cell=1
+old={"v":"Main Switch"}
+new={"v":"Main Switch"}
+/ec/
+row=77
+cell=1
+old={"v":"Main Switch"}
+new={"v":"Main Switch"}
+/ec/
+row=78
+cell=1
+old={"v":"Main Switch"}
+new={"v":"Main Switch"}
+/ec/
+row=79
+cell=1
+old={"v":"Main Switch"}
+new={"v":"Main Switch"}
+/ec/
+row=80
+cell=1
+old={"v":"Main switch"}
+new={"v":"Main Switch"}
+/ec/
+row=81
+cell=1
+old={"v":"Main switch"}
+new={"v":"Main Switch"}
+/ec/
+row=82
+cell=1
+old={"v":"Main Switch"}
+new={"v":"Main Switch"}
+/ec/
+row=83
+cell=1
+old={"v":"Main Switch"}
+new={"v":"Main Switch"}
+/ec/
+row=84
+cell=1
+old={"v":"Main Switch"}
+new={"v":"Main Switch"}
+/ec/
+row=85
+cell=1
+old={"v":"Main Switch"}
+new={"v":"Main Switch"}
+/ec/
+row=86
+cell=1
+old={"v":"Main Switch"}
+new={"v":"Main Switch"}
+/ec/
+row=87
+cell=1
+old={"v":"Main Switch"}
+new={"v":"Main Switch"}
+/ec/
+row=88
+cell=1
+old={"v":"Main Switch"}
+new={"v":"Main Switch"}
+/ec/
+row=89
+cell=1
+old={"v":"Main Switch"}
+new={"v":"Main Switch"}
+/ec/
+row=90
+cell=1
+old={"v":"Main Switch"}
+new={"v":"Main Switch"}
+/ec/
+row=91
+cell=1
+old={"v":"Main Switch"}
+new={"v":"Main Switch"}
+/ec/
+row=92
+cell=1
+old={"v":"Main Switch"}
+new={"v":"Main Switch"}
+/ec/
+row=94
+cell=1
+old={"v":"Main Switch"}
+new={"v":"Main Switch"}
+/ec/
+row=95
+cell=1
+old={"v":"Main Switch"}
+new={"v":"Main Switch"}
+/ec/
+row=96
+cell=1
+old={"v":"Main Switch"}
+new={"v":"Main Switch"}
+/ec/
+row=98
+cell=1
+old={"v":"Main Switch"}
+new={"v":"Main Switch"}
+/ec/
+row=99
+cell=1
+old={"v":"Main Switch"}
+new={"v":"Main Switch"}
+/ec/
+row=100
+cell=1
+old={"v":"Main Switch"}
+new={"v":"Main Switch"}
+/ec/
+row=101
+cell=1
+old={"v":"main switch"}
+new={"v":"Main Switch"}
+/ec/
+row=102
+cell=1
+old={"v":"main switch"}
+new={"v":"Main Switch"}
+/ec/
+row=103
+cell=1
+old={"v":"Main Switch"}
+new={"v":"Main Switch"}
+/ec/
+row=105
+cell=1
+old={"v":"Main Switch"}
+new={"v":"Main Switch"}
+/ec/
+row=106
+cell=1
+old={"v":"Main Switch"}
+new={"v":"Main Switch"}
+/ec/
+row=107
+cell=1
+old={"v":"Main Switch"}
+new={"v":"Main Switch"}
+/ec/
+row=108
+cell=1
+old={"v":"Final Circuits"}
+new={"v":"Final Circuits"}
+/ec/
+row=109
+cell=1
+old={"v":"Final Circuits"}
+new={"v":"Final Circuits"}
+/ec/
+row=110
+cell=1
+old={"v":"Final Circuits"}
+new={"v":"Final Circuits"}
+/ec/
+row=111
+cell=1
+old={"v":"Meter Position"}
+new={"v":"Meter Position"}
+/ec/
+row=113
+cell=1
+old={"v":"Meter Position"}
+new={"v":"Meter Position"}
+/ec/
+row=114
+cell=1
+old={"v":"Meter Position"}
+new={"v":"Meter Position"}
+/ec/
+row=116
+cell=1
+old={"v":"Meter Position"}
+new={"v":"Meter Position"}
+/ec/
+row=117
+cell=1
+old={"v":"Meter Position"}
+new={"v":"Meter Position"}
+/ec/
+row=118
+cell=1
+old={"v":"Meter Position"}
+new={"v":"Meter Position"}
+/ec/
+row=120
+cell=1
+old={"v":"Meter Position"}
+new={"v":"Meter Position"}
+/ec/
+row=121
+cell=1
+old={"v":"Meter Position"}
+new={"v":"Meter Position"}
+/ec/
+row=122
+cell=1
+old={"v":"Meter Position"}
+new={"v":"Meter Position"}
+/ec/
+row=124
+cell=1
+old={"v":"Meter Position"}
+new={"v":"Meter Position"}
+/ec/
+row=125
+cell=1
+old={"v":"Meter Position"}
+new={"v":"Meter Position"}
+/ec/
+row=126
+cell=1
+old={"v":"Meter Position"}
+new={"v":"Meter Position"}
+/ec/
+row=127
+cell=1
+old={"v":"Meter Position"}
+new={"v":"Meter Position"}
+/ec/
+row=128
+cell=1
+old={"v":"Meter Position"}
+new={"v":"Meter Position"}
+/ec/
+row=130
+cell=1
+old={"v":"Meter position"}
+new={"v":"Meter Position"}
+/ec/
+row=131
+cell=1
+old={"v":"Meter position"}
+new={"v":"Meter Position"}
+/ec/
+row=132
+cell=1
+old={"v":"Meter Position"}
+new={"v":"Meter Position"}
+/ec/
+row=133
+cell=1
+old={"v":"Meter Position"}
+new={"v":"Meter Position"}
+/ec/
+row=134
+cell=1
+old={"v":"Meter position"}
+new={"v":"Meter Position"}
+/ec/
+row=136
+cell=1
+old={"v":"Meter Position"}
+new={"v":"Meter Position"}
+/ec/
+row=137
+cell=1
+old={"v":"Meter Position"}
+new={"v":"Meter Position"}
+/ec/
+row=138
+cell=1
+old={"v":"Meter Position"}
+new={"v":"Meter Position"}
+/ec/
+row=139
+cell=1
+old={"v":"Meter Position"}
+new={"v":"Meter Position"}
+/ec/
+row=140
+cell=1
+old={"v":"Meter Position"}
+new={"v":"Meter Position"}
+/ec/
+row=141
+cell=1
+old={"v":"Meter Position"}
+new={"v":"Meter Position"}
+/ec/
+row=142
+cell=1
+old={"v":"Meter Position"}
+new={"v":"Meter Position"}
+/ec/
+row=143
+cell=1
+old={"v":"Meter Position"}
+new={"v":"Meter Position"}
+/ec/
+row=144
+cell=1
+old={"v":"Meter Position"}
+new={"v":"Meter Position"}
+/ec/
+row=145
+cell=1
+old={"v":"Meter Position"}
+new={"v":"Meter Position"}
+/ec/
+row=146
+cell=1
+old={"v":"Meter Position"}
+new={"v":"Meter Position"}
+/ec/
+row=147
+cell=1
+old={"v":"Meter Position"}
+new={"v":"Meter Position"}
+/ec/
+row=148
+cell=1
+old={"v":"Meter Position"}
+new={"v":"Meter Position"}
+/ec/
+row=149
+cell=1
+old={"v":"Meter Position"}
+new={"v":"Meter Position"}
+/ec/
+/ec/

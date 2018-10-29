@@ -9,7 +9,7 @@ $(document).ready(function(){
         $.getJSON(airtable_read_endpoint, function(result) {
                $.each(result.records, function(key,value) {
                    items = [];
-                       items.push(value.fields.Occasions);
+                       items.push(value.fields.Outfits_code);
                        items.push(value.fields.Total_price);
                        items.push(value.fields.Money_saved);
                        items.push(value.fields.Tops_price);
@@ -20,7 +20,7 @@ $(document).ready(function(){
                  data: dataSet,
                  retrieve: true,
                  columns: [
-                     { title: "Occasions",
+                     { title: "Outfits_code",
                        defaultContent:""},
                      { title: "Total_price",
                        defaultContent:"" },

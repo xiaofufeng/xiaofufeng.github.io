@@ -3,28 +3,32 @@ $(document).ready(function(){
     $("button#get_data").click(function() {
         var items = [];
         var i = 0;
-        var airtable_read_endpoint = "https://api.airtable.com/v0/appM38HXlEVhxmnqx/Tasks?api_key=keyTcsTzckqyBTlk8&sortField=_createdTime&sortDirection=desc";
+
+        var airtable_read_endpoint = "https://api.airtable.com/v0/appENaVzPyNLQlumN/Outfits?api_key=keytLf7m73sOFf472&maxRecords=3&view=Grid%20view";
         var dataSet = [];
         $.getJSON(airtable_read_endpoint, function(result) {
                $.each(result.records, function(key,value) {
                    items = [];
-                       items.push(value.fields.Name);
-                       items.push(value.fields.Completed);
-                       items.push(value.fields.Time_Estimate);
-                       items.push(value.fields.converted);
+                       items.push(value.fields.Occasions);
+                       items.push(value.fields.Total_price);
+                       items.push(value.fields.Money_saved);
+                       items.push(value.fields.Tops_price);
+                       items.push(value.fields.Bottoms_price);
                        dataSet.push(items);
                 }); // end .each
              $('#example').DataTable( {
                  data: dataSet,
                  retrieve: true,
                  columns: [
-                     { title: "Name",
+                     { title: "Occasions",
                        defaultContent:""},
-                     { title: "Completed",
+                     { title: "Total_price",
                        defaultContent:"" },
-                     { title: "Time Estimated",
+                     { title: "Money_saved",
                        defaultContent:""},
-                     { title: "Converted",
+                     { title: "Tops_price",
+                       defaultContent:""},
+                     { title: "Bottoms_price",
                        defaultContent:""},
                  ]
              } );

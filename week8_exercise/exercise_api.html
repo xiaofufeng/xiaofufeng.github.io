@@ -1,56 +1,25 @@
 <!DOCTYPE html>
  <html>
-      <head></head>
+      <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <script type="text/javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+
+      </head>
       <body>
-        <button id="get_data">get data</button>
         <div class="container">
              <h1 align="center">Show JSON Data in Jquery Datatables</h1><br />
              <h3 align="center">Employee Database</h3><br />
-             <table id="data-table" class="table table-bordered">
-                  <thead>
-                       <tr>
-                            <th>Name</th>
-                            <th>Completed</th>
-                            <th>Time Estimated</th>
-                            <th>Converted</th>
-                       </tr>
-                  </thead>
-             </table>
+
+        <button type="button" class="btn btn-warning" id='get_data'>Get Data</button><br>
+
+        <div class="table-responsive">
+          <table id="example" width="100%" class="table table-bordered">
+          </table>
+        </div>
+
+        </div>
       </body>
  </html>
- <script>
-
-$(document).ready(function(){
-$("button#get_data").click(function() {
-        var items = [];
-        var i = 0;
-        var airtable_read_endpoint = "https://api.airtable.com/v0/appM38HXlEVhxmnqx/Tasks?api_key=keyTcsTzckqyBTlk8&sortField=_createdTime&sortDirection=desc";
-        var dataSet = [];
-        $.getJSON(airtable_read_endpoint, function(result) {
-               $.each(result.records, function(key,value) {
-                   items = [];
-                       items.push(value.fields.Name);
-                       items.push(value.fields.Completed);
-                       items.push(value.fields.Time_Estimate);
-                       items.push(value.fields.converted);
-                       dataSet.push(items);
-                }); // end .each
-             $('#example').DataTable( {
-                 data: dataSet,
-                 retrieve: true,
-                 columns: [
-                     { title: "Name",
-                       defaultContent:""},
-                     { title: "Completed",
-                       defaultContent:"" },
-                     { title: "Time Estimated",
-                       defaultContent:""},
-                     { title: "Converted",
-                       defaultContent:""},
-                 ]
-             } );
-        }); // end .getJSON
-     }); // end button
-}); // document ready
-
-</script>
+ <script src='scriptlib2.js'></script>

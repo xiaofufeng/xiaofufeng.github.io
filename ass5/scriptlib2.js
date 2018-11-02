@@ -72,10 +72,8 @@ var table2_items = [];
                           defaultContent:""},
                     ] // rmf columns
                 } ); // end dataTable
+
             
-
-
-
     var chart = c3.generate({
                          data: {
                              columns: table2_dataSet,

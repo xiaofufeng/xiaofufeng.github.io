@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    $$("button#get_date").click(function() {
+    $("button#roll_up").click(function() {
        var table1_items = [];
        var i = 0;
        var airtable_read_endpoint = "https://api.airtable.com/v0/appENaVzPyNLQlumN/Outfits?api_key=keytLf7m73sOFf472&maxRecords=35&view=Grid%20view";
@@ -38,17 +38,16 @@ $(document).ready(function(){
                 ]
             } );
        }); // end .getJSON
-
-//roll up table 1
+//roll up table2 and chart
 var table2_items = [];
          var i = 0;
          var airtable_read_endpoint =
-         "https://api.airtable.com/v0/appENaVzPyNLQlumN/Outfits?api_key=keytLf7m73sOFf472&maxRecords=35&view=Grid%20view";
+         "https://api.airtable.com/v0/appENaVzPyNLQlumN/Occasions?api_key=keytLf7m73sOFf472&maxRecords=35&view=Grid%20view";
          var table2_dataSet = [];
          $.getJSON(airtable_read_endpoint, function(result) {
                 $.each(result.records, function(key,value) {
                     table2_items = [];
-                        table2_items.push(value.fields.Occasions_);
+                        table2_items.push(value.fields.Name);
                         table2_items.push(value.fields.Total_Entries);
                         table2_dataSet.push(table2_items);
                         console.log(table2_items);
@@ -59,7 +58,7 @@ var table2_items = [];
                     retrieve: true,
                     ordering: false,
                     columns: [
-                        { title: "Occasions_",
+                        { title: "Occasions",
                           defaultContent:""},
                         { title: "Total Entries",
                           defaultContent:""},
@@ -77,9 +76,10 @@ var table2_items = [];
                  });
 
           }); // end .getJSON
-       }); // end button
 
-        // $.getJSON('http://localhost/d756a/data_export.json/Computer+TV', function(obj) {
+}); // end button
+
+
 
 
 

@@ -73,14 +73,14 @@ var table2_items = [];
                     ] // rmf columns
                 } ); // end dataTable
 
-            
+
     var chart = c3.generate({
                          data: {
                              columns: table2_dataSet,
                              type : 'bar'
                          },
                          bar: {
-                             title: "Tasks for Each Stage:",
+                             title: "Total Numbers for Each Occasion:",
                          }
                      });
 
@@ -88,7 +88,48 @@ var table2_items = [];
            }); // end button
 
 
+           $("button#see_chart").click(function() {
 
+           //roll up table2
+           var table2_items = [];
+                var i = 0;
+                var airtable_read_endpoint =
+                "https://api.airtable.com/v0/appENaVzPyNLQlumN/Occasions?api_key=keytLf7m73sOFf472&maxRecords=35&view=Grid%20view";
+                var table2_dataSet = [];
+                $.getJSON(airtable_read_endpoint, function(result) {
+                       $.each(result.records, function(key,value) {
+                           table2_items = [];
+                               table2_items.push(value.fields.Name);
+                               table2_items.push(value.fields.Total_Entries);
+                               table2_dataSet.push(table2_items);
+                               console.log(table2_items);
+                        }); // end .each
+                        console.log(table2_dataSet);
+                       $('#table2').DataTable( {
+                           data: table2_dataSet,
+                           retrieve: true,
+                           ordering: false,
+                           columns: [
+                               { title: "Occasions",
+                                 defaultContent:""},
+                               { title: "Total Entries",
+                                 defaultContent:""},
+                           ] // rmf columns
+                       } ); // end dataTable
+
+
+           var chart = c3.generate({
+                                data: {
+                                    columns: table2_dataSet,
+                                    type : 'bar'
+                                },
+                                bar: {
+                                    title: "Total Numbers for Each Occasion:",
+                                }
+                            });
+
+                     }); // end .getJSON
+                  }); // end button
 
 
 

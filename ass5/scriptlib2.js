@@ -26,7 +26,7 @@ $(document).ready(function(){
               columns: [
                   { title: "Outfits_code",
                     defaultContent:""},
-                  
+
                   { title: "Occasions_",
                       defaultContent:"" },
                   { title: "Total_price",
@@ -76,7 +76,7 @@ var table2_items = [];
 
     }); // end button
 
-$("button#roll_up").click(function() {
+$("button#see_chart").click(function() {
                 var chart = c3.generate({
                      data: {
                          columns: table2_dataSet,

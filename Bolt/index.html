@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--Teacher's example-->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-71445513-6"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-71445513-6');
+      </script>
+
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css"
+  <script src='scriptlib.js'></script>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/d3/3.4.11/d3.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/c3/0.1.29/c3.js"></script>
+  <link href="//cdnjs.cloudflare.com/ajax/libs/c3/0.1.29/c3.css" rel="stylesheet" type="text/css">
+<!--End of Teacher's example-->
+
+  <title>Assignment 5</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Raleway:400,300,700,900" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+    Template Name: Bolt
+    Template URL: https://templatemag.com/bolt-bootstrap-agency-template/
+    Author: TemplateMag.com
+    License: https://templatemag.com/license/
+  ======================================================= -->
+</head>
+
+<body data-spy="scroll" data-offset="80" data-target="#thenavbar">
+
+  <!-- Fixed navbar -->
+  
+
+  <div id="hello">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 centered">
+          <h1>Autumn Outfits</h1>
+          <h2>Data by jQuery get JSON and Airtable API</h2>
+        </div>
+        <!-- /col-lg-8 -->
+      </div>
+      <!-- /row -->
+    </div>
+    <!-- /container -->
+  </div>
+  <!-- /hello -->
+
+  <div id="green">
+    <div class="container">
+        <div class="row centered mt grid">
+          <h3>Autumn Outfits for Different Occasions</h3>
+          <p></p>
+          <div class="mt"></div>
+          <!--paste from demo-->
+          <button type="button" class="btn btn-warning" id='get_data'>Get Data</button><br>
+
+          <div class="table-responsive">
+            <table id="table1" width="100%" class="table table-bordered"></table>
+
+          </div>
+          <!--End of paste from demo-->
+          </div>
+        </div>
+      </div>
+  </div>
+<!--portfolio page-->
+  <div id="portfolio"></div>
+  <div class="container">
+    <div class="row centered mt grid">
+      <h3>Aggregated Data</h3>
+      <p></p>
+      <div class="mt"></div>
+      <!--paste from demo-->
+      <button type="button" class="btn btn-warning" id='roll_up'>Roll Up</button><br>
+
+      </div>
+      <div class="table-responsive">
+        <table id="table2" width="100%" class="table table-bordered"></table>
+
+      </div>
+      <!--End of paste from demo-->
+    </div>
+
+
+    </div>
+  </div>
+
+
+<!--skills page-->
+
+  <div id="skills">
+    <div class="container">
+      <div class="row centered">
+        <h3>CHART</h3>
+        <p class="lead">Bar chart of the aggregated data</p>
+        <button type="button" class="btn btn-warning" id='see_chart'>See Chart!</button><br>
+        <div class="table-responsive">
+          <table id="table2" width="100%" class="table table-bordered"></table>
+
+        </div>
+
+      </div>
+      <!-- /row -->
+    </div>
+    <!-- /container -->
+  </div>
+  <!-- /skills -->
+
+
+
+  </section>
+
+  <div id="copyrights">
+    <div class="container">
+      <p>
+        &copy; Copyrights <strong>Autumn Outfits</strong>. All Rights Reserved
+      </p>
+      <div class="credits">
+        <!--
+          You are NOT allowed to delete the credit link to TemplateMag with free version.
+          You can delete the credit link only if you bought the pro version.
+          Buy the pro version with working PHP/AJAX contact form: https://templatemag.com/bolt-bootstrap-agency-template/
+          Licensing information: https://templatemag.com/license/
+        -->
+        Created by FENG Xiaofu
+      </div>
+    </div>
+  </div>
+<script src='scriptlib2.js'></script>
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/php-mail-form/validate.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/chart/chart.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>

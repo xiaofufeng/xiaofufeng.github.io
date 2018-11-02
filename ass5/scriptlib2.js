@@ -10,7 +10,7 @@ $(document).ready(function(){
                $.each(result.records, function(key,value) {
                    items = [];
                        items.push(value.fields.Outfits_code);
-                       items.push(value.fields.Occasions);
+                       items.push(value.fields.Occasions_);
                        items.push(value.fields.Total_price);
                        items.push(value.fields.Money_saved);
                        items.push(value.fields.Tops_price);
@@ -26,7 +26,7 @@ $(document).ready(function(){
                  columns: [
                      { title: "Outfits_code",
                        defaultContent:""},
-                     { title: "Occasions",
+                     { title: "Occasions_",
                        defaultContent:""},
                      { title: "Total_price",
                        defaultContent:"" },

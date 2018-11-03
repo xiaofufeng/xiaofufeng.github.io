@@ -40,22 +40,32 @@
       </div>
   </nav>
 
+
+
       <div class="container"; style="background-color: #7fdedb; width: -webkit-fill-available; height:80px"></div>
 
       <div class="container"; style="background-color: #7fdedb; height: 150px; width: -webkit-fill-available;">
-        <h1 style="text-align:center; -webkit-text-fill-color: white;">Autumn Outfits</h1>
+        <div class="row">
+          <div class="col-sm-12">
+            <h1 style="text-align:center; -webkit-text-fill-color: white;">Autumn Outfits</h1>
 
-        <p style="text-align:center; -webkit-text-fill-color: #eceaea;">Data by jQuery getJSON and Airtable API.</p>
-        <p style="text-align:center; -webkit-text-fill-color: #eceaea;">Total_price and Money_saved column is calculated by formula to let customers know how much money can be saved.</p>
+            <p style="text-align:center; -webkit-text-fill-color: #eceaea;">Data by jQuery getJSON and Airtable API.</p>
+            <p style="text-align:center; -webkit-text-fill-color: #eceaea;">Total_price and Money_saved column is calculated by formula to let customers know how much money can be saved.</p>
+          </div>
+        </div>
       </div>
 
           <div class="container"; style="height:550px">
-            <div class="container"; style="width:100px; margin-top:30px">
-              <button type="button" class="btn btn-warning" id='get_data'>Get Data</button><br>
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="container"; style="width:100px; margin-top:30px">
+                  <button type="button" class="btn btn-warning" id='get_data'>Get Data</button><br>
+                </div>
+                <div class="table-responsive">
+                <table id="table1" width="100%" class="table table-bordered"></table>
+                </div>
+              </div>
             </div>
-          <div class="table-responsive">
-          <table id="table1" width="100%" class="table table-bordered"></table>
-          </div>
           </div>
 
 

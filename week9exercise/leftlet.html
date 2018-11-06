@@ -48,7 +48,7 @@ function show_districts(){
   for (var i in data) {
       var latlng = L.latLng({ lat: data[i].latitud, lng: data[i].longitud });
       L.marker( latlng )
-          .bindPopup( '<a href="' + data[i].Store_url + '" target="_blank">' + '<img src="' + data[i].Store_image_url+'" width = "80px"><br>'+data[i].Store_name +data[i].Tel + '</a>' )
+          .bindPopup( '<a href="' + data[i].Store_url + '" target="_blank">' + '<img src="' + data[i].Store_image_url+'" width = "80px"><br>'+data[i].Store_name + '<br>'+data[i].Tel + '</a>' )
           .addTo(map);
   }
 }

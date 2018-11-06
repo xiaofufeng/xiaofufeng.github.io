@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html>
 <head>
-  <title>Town Page</title>
+  <title>Autumn Outfits</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <link rel="stylesheet" href="leaflet.css">
@@ -11,21 +11,63 @@
   </head>
 
 <body>
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+      <div class="navbar-header">
+          <a class="navbar-brand" href="#">OUTFITS</a>
+      </div>
+      <div>
+          <ul class="nav navbar-nav">
+              <li class="active"><a href="index.html">TABLE</a></li>
+              <li><a href="roll_up.html">AGGREGATION</a></li>
+              <li><a href="chart.html">CHART</a></li>
+              <li><a href="leaflet.html">MAP</a></li>
+          </ul>
+      </div>
+      </div>
+  </nav>
+  <!--End of navigation bar-->
 
-<div class="container">
-  <div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-12">
+<!--Headline part-->
+  <div class="container"; style="background-color: #7fdedb; width: -webkit-fill-available; height:80px"></div>
 
-      <div id="map" style="width: 800px; height: 440px; border: 1px solid #AAA;"></div>
-      <button type="button" class="btn btn-warning" id='roll_up' onclick="show_districts();">Show Districts</button><br>
+  <div class="container"; style="background-color: #7fdedb; height: 150px; width: -webkit-fill-available;">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1 style="text-align:center; -webkit-text-fill-color: white;">Map of Stores</h1>
+
+        <p style="text-align:center; -webkit-text-fill-color: #eceaea;">Click to see locations of stores in Hong Kong.</p>
+        <p style="text-align:center; -webkit-text-fill-color: #eceaea;">Store name, store image, and phone numnber are provided.</p>
+      </div>
     </div>
   </div>
+
+<div class="container">
+
+  <div class="row"; style="height:50px; margin-top:20px">
+    <div class="col-xs-5"></div>
+    <div class="col-xs-7">
+      <button type="button" class="btn btn-warning" id='roll_up' onclick="show_districts();">Show Stores</button><br>
+    </div>
+  </div>
+
+  <div class="row">
+      <div class="col-xs-2"></div>
+      <div class="col-xs-8">
+        <div id="map" style="width: 700px; height: 400px; border: 1px solid #AAA;"></div>
+
+      </div>
+      <div class="col-xs-2"><div>
+  </div>
 </div>
+
+
+
 <script>
     var mapboxTiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution: 'Map data &copy; <a href="https://openstreetmap.org">OpenStreetMap</a>', maxZoom: 18,})
     var map = L.map('map')
           .addLayer(mapboxTiles)
-          .setView([22.287111, 114.191667], 12);
+          .setView([22.3372, 114.174692], 12);
     var items = [];
     var airtable_read_endpoint = "https://api.airtable.com/v0/appENaVzPyNLQlumN/Map?api_key=keytLf7m73sOFf472&maxRecords=20&view=Grid%20view";
     var data = [];
@@ -46,8 +88,8 @@
 <script>
 // create custom icon
     var icon = L.icon({
-        iconUrl: 'https://img.icons8.com/material/50/000000/indoor-navigation.png',
-        iconSize: [38, 95], // size of the icon
+        iconUrl: 'https://img.icons8.com/doodle/50/000000/marker.png',
+        iconSize: [30, 30], // size of the icon
         popupAnchor: [0,-15]
         });
 </script>

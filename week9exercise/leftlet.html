@@ -1,25 +1,57 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html>
 <head>
-    <title>Simple Leaflet Map</title>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
-  integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
-  crossorigin=""/>
-  <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
-   integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
-   crossorigin=""></script>
-</head>
+  <title>Town Page</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="leaflet.css">
+  <link rel="shortcut icon" href="">
+  <script src="leaflet.js"></script>
+  <script src="https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/leaflet.markercluster.js"></script>
+  </head>
+
 <body>
-  <div id="map" style="width: 600px; height: 400px"></div>
- <script>
-     var mapboxTiles = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a>', maxZoom: 18,})
-     var map = L.map('map')
-           .addLayer(mapboxTiles)
-           .setView([36.783333, 118.05], 14);
-     var marker = L.marker([36.783333, 118.05], {draggable: true})
-           .bindPopup( '<a href="https://en.wikipedia.org/wiki/Zibo" target="_blank">Zibo</a>')
-           .addTo(map);
- </script>
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12">
+
+      <div id="map" style="width: 800px; height: 440px; border: 1px solid #AAA;"></div>
+      <button type="button" class="btn btn-warning" id='roll_up' onclick="show_districts();">Show Districts</button><br>
+    </div>
+  </div>
+</div>
+<script>
+    var mapboxTiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution: 'Map data &copy; <a href="https://openstreetmap.org">OpenStreetMap</a>', maxZoom: 18,})
+    var map = L.map('map')
+          .addLayer(mapboxTiles)
+          .setView([22.287111, 114.191667], 13);
+    var items = [];
+    var airtable_read_endpoint = "https://api.airtable.com/v0/appENaVzPyNLQlumN/Map?api_key=keytLf7m73sOFf472&maxRecords=20&view=Grid%20view";
+    var data = [];
+    $.getJSON(airtable_read_endpoint, function(result) {
+           $.each(result.records, function(key,value) {
+               items = {};
+                   items["Store_name"] = value.fields.Store_name;
+                   items["Store_url"] = value.fields.Store_url;
+                   items["Store_image_url"] = value.fields.Store_image_url;
+                   items["latitud"] = value.fields.Lat;
+                   items["longitud"] = value.fields.Lng;
+                   items["Tel"] = value.fields.Tel;
+                   data.push(items);
+                   console.log(items);
+            }); // end .each
+    }); // end getJSON
+</script>
+<script>
+function show_districts(){
+  for (var i in data) {
+      var latlng = L.latLng({ lat: data[i].latitud, lng: data[i].longitud });
+      L.marker( latlng )
+          .bindPopup( '<a href="' + data[i].Store_url + '" target="_blank">' + '<img src="' + data[i].Store_image_url+'" width = "80px"><br>'+data[i].Store_name +data[i].Tel + '</a>' )
+          .addTo(map);
+  }
+}
+</script>
 </body>
 </html>

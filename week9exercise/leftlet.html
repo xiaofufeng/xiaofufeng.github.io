@@ -25,7 +25,7 @@
     var mapboxTiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution: 'Map data &copy; <a href="https://openstreetmap.org">OpenStreetMap</a>', maxZoom: 18,})
     var map = L.map('map')
           .addLayer(mapboxTiles)
-          .setView([22.287111, 114.191667], 13);
+          .setView([22.287111, 114.191667], 18);
     var items = [];
     var airtable_read_endpoint = "https://api.airtable.com/v0/appENaVzPyNLQlumN/Map?api_key=keytLf7m73sOFf472&maxRecords=20&view=Grid%20view";
     var data = [];
@@ -43,6 +43,15 @@
             }); // end .each
     }); // end getJSON
 </script>
+<script>
+// create custom icon
+    var icon = L.icon({
+        iconUrl: 'https://img.icons8.com/material/50/000000/indoor-navigation.png',
+        iconSize: [38, 95], // size of the icon
+        popupAnchor: [0,-15]
+        });
+</script>
+
 <script>
 function show_districts(){
   for (var i in data) {

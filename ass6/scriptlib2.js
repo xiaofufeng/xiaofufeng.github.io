@@ -129,7 +129,12 @@ var table2_items = [];
                                    },
                                 bar: {
                                     title: "Total Numbers for Each Occasion:",
-                                }
+                                },
+                                width: {
+                                            ratio: 0.5 // this makes bar width 50% of length between ticks
+                                        }
+                                        // or
+                                        //width: 100 // this makes bar width 100px
                             });
 
                      }); // end .getJSON

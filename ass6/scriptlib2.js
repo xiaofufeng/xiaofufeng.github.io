@@ -123,6 +123,10 @@ var table2_items = [];
                                     columns: table2_dataSet,
                                     type : 'bar'
                                 },
+                                axis: {
+                                     x: {label: 'Occasions'},
+                                     y: {label: '# of Entries'}
+                                   },
                                 bar: {
                                     title: "Total Numbers for Each Occasion:",
                                 }

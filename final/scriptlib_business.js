@@ -1,6 +1,7 @@
 $(document).ready(function(){
 
   $("button#see_outfits").click(function() {
+    $("#div1").show(1000);
      var table1_items = [];
      var i = 0;
      var airtable_read_endpoint = "https://api.airtable.com/v0/appENaVzPyNLQlumN/Business%26Interview?api_key=keytLf7m73sOFf472&maxRecords=40&view=Grid%20view";
@@ -46,8 +47,8 @@ $(document).ready(function(){
 
 //see chart of total price
 $("button#see_total_price").click(function() {
-$("#div1").hide(1000);
-$("#chart2").hide(1000);
+
+
 
 var table2_items = [];
          var i = 0;
@@ -105,9 +106,7 @@ var table2_items = [];
        //see chart of total price
        $("button#see_total_price").click(function() {
 
-        $("#div1").hide(1000);
-        $("#chart1").hide(1000);
-
+      
        var table3_items = [];
                 var i = 0;
                 var airtable_read_endpoint =

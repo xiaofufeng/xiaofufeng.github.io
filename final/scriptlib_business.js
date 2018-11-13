@@ -86,7 +86,11 @@ var table2_items = [];
                                  pattern: ['#1f77b4']
                              },
                          axis: {
-                                     x: {label: 'Outfits code'
+                                     x: {label: 'Outfits code',
+                                          tick: {
+                                              count: 20,
+                                              format: '%Y-%m-%d'
+
 
                                    },
                                      y: {label: '# of Total price'}
@@ -95,7 +99,7 @@ var table2_items = [];
                                     title: "Total Price for Each Occasion:",
                                 },
                           width: {
-                                      width:50 // this makes bar width 50% of length between ticks
+                                      ratio:0.5 // this makes bar width 50% of length between ticks
                                   },
                                   // or
                                   //width: 100 // this makes bar width 100px

@@ -106,7 +106,7 @@ var table2_items = [];
        $("button#see_total_price").click(function() {
 
         $("#div1").hide(1000);
-        $("#chart1").hide(1000);
+        
        var table3_items = [];
                 var i = 0;
                 var airtable_read_endpoint =

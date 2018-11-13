@@ -44,10 +44,10 @@ $(document).ready(function(){
 }); // end button
 
 
-
+//see chart of total price
 $("button#see_total_price").click(function() {
+$("table1").hide(1000);
 
-//roll up table2
 var table2_items = [];
          var i = 0;
          var airtable_read_endpoint =
@@ -100,6 +100,65 @@ var table2_items = [];
 
               }); // end .getJSON
            }); // end button
+
+           //see chart of total price
+           $("button#see_total_price").click(function() {
+
+
+           var table2_items = [];
+                    var i = 0;
+                    var airtable_read_endpoint =
+                    "https://api.airtable.com/v0/appENaVzPyNLQlumN/Business%26Interview?api_key=keytLf7m73sOFf472&maxRecords=40&view=Grid%20view";
+                    var table2_dataSet = [];
+                    $.getJSON(airtable_read_endpoint, function(result) {
+                           $.each(result.records, function(key,value) {
+                               table2_items = [];
+                                   table2_items.push(value.fields.Outfits_code);
+                                   table2_items.push(value.fields.Total_price);
+                                   table2_dataSet.push(table2_items);
+                                   console.log(table2_items);
+                            }); // end .each
+                            console.log(table2_dataSet);
+                           $('#table2').DataTable( {
+                               data: table2_dataSet,
+                               retrieve: true,
+                               ordering: false,
+                               columns: [
+                                   { title: "Outfits_code",
+                                     defaultContent:""},
+                                   { title: "Total_price",
+                                     defaultContent:""},
+                               ] // rmf columns
+                           } ); // end dataTable
+
+
+               var chart = c3.generate({
+                                    data: {
+                                        columns: table2_dataSet,
+                                        type : 'bar'
+                                    },
+                                    color: {
+                                            pattern: ['#1f77b4']
+                                        },
+                                    axis: {
+                                                x: {label: 'Outfits code'},
+                                                y: {label: '# of Total price'}
+                                              },
+                                           bar: {
+                                               title: "Total Price for Each Occasion:",
+                                           },
+                                           width: {
+                                                       width:50 // this makes bar width 50% of length between ticks
+                                                   }
+                                                   // or
+                                                   //width: 100 // this makes bar width 100px
+
+                                });
+
+                         }); // end .getJSON
+                      }); // end button
+
+
 
 
 }); // document ready

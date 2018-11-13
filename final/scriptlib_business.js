@@ -146,10 +146,7 @@ $("#div1").hide(1000);
                                          pattern: ['#1f77b4']
                                      },
                                  axis: {
-                                             x: {label: 'Outfits code',
-                                                  tick: {
-                                                      count: 20,
-                                                      format: '%Y-%m-%d'},
+                                             x: {label: 'Outfits code'
 
                                            },
                                              y: {label: '# of Total price'}

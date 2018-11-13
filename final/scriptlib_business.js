@@ -77,7 +77,7 @@ var table2_items = [];
                 } ); // end dataTable
 
 
-    var chart1 = c3.generate({
+    var chart = c3.generate({
                          data: {
                              columns: table2_dataSet,
                              type : 'bar'
@@ -103,62 +103,6 @@ var table2_items = [];
               }); // end .getJSON
            }); // end button
 
-       //see chart of total price
-       $("button#see_total_price").click(function() {
-
-      
-       var table3_items = [];
-                var i = 0;
-                var airtable_read_endpoint =
-                "https://api.airtable.com/v0/appENaVzPyNLQlumN/Business%26Interview?api_key=keytLf7m73sOFf472&maxRecords=40&view=Grid%20view";
-                var table3_dataSet = [];
-                $.getJSON(airtable_read_endpoint, function(result) {
-                       $.each(result.records, function(key,value) {
-                           table3_items = [];
-                               table3_items.push(value.fields.Outfits_code);
-                               table3_items.push(value.fields.Money_saved);
-                               table3_dataSet.push(table3_items);
-                               console.log(table3_items);
-                        }); // end .each
-                        console.log(table3_dataSet);
-                       $('#table3').DataTable( {
-                           data: table3_dataSet,
-                           retrieve: true,
-                           ordering: false,
-                           columns: [
-                               { title: "Outfits_code",
-                                 defaultContent:""},
-                               { title: "Money_saved",
-                                 defaultContent:""},
-                           ] // rmf columns
-                       } ); // end dataTable
-
-
-           var chart2 = c3.generate({
-                                data: {
-                                    columns: table3_dataSet,
-                                    type : 'bar'
-                                },
-                                color: {
-                                        pattern: ['#1f77b4']
-                                    },
-                                axis: {
-                                            x: {label: 'Outfits code'},
-                                            y: {label: '# of Money saved'}
-                                          },
-                                       bar: {
-                                           title: "Money Saved for Each Occasion:",
-                                       },
-                                       width: {
-                                                   width:30 // this makes bar width 50% of length between ticks
-                                               },
-                                               // or
-                                               //width: 100 // this makes bar width 100px
-
-                            });
-
-                     }); // end .getJSON
-                  }); // end button
 
 
 

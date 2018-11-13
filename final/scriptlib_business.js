@@ -82,7 +82,7 @@ var table2_items = [];
                          },
                          color: {
                                  pattern: ['#1f77b4']
-                             }
+                             },
                          axis: {
                                      x: {label: 'Outfits code'},
                                      y: {label: '# of Total price'}

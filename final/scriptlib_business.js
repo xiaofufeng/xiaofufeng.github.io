@@ -48,8 +48,8 @@ $(document).ready(function(){
 
 
 
-   //see chart of total price
-         $("button#see_total_price").click(function() {
+   //see chart of mondy saved
+         $("button#see_money_saved").click(function() {
 $("#div1").hide(1000);
 
          var table3_items = [];

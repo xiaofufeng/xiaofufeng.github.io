@@ -1,21 +1,22 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
-<html>
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129065455-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<html lang="en">
 
-  gtag('config', 'UA-129065455-1');
-</script>
+  <head>
 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-  <title>Autumn Outfits</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <title>Autumn Outfits</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/full-slider.css" rel="stylesheet">
+    <!-- Copy teacher -->
+
 
   <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css"
   <script src='scriptlib.js'></script>
@@ -24,55 +25,135 @@
   <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/d3/3.4.11/d3.js"></script>
   <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/c3/0.1.29/c3.js"></script>
   <link href="//cdnjs.cloudflare.com/ajax/libs/c3/0.1.29/c3.css" rel="stylesheet" type="text/css">
-</head>
 
-<body>
-  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container-fluid">
-      <div class="navbar-header">
-          <a class="navbar-brand" href="#">OUTFITS</a>
-      </div>
-      <div>
-          <ul class="nav navbar-nav">
-              <li class="active"><a href="index.html">TABLE</a></li>
-              <li><a href="roll_up.html">AGGREGATION</a></li>
-              <li><a href="chart.html">CHART</a></li>
-              <li><a href="map.html">MAP</a></li>
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Outfits</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Occasions
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+                <a class="dropdown-item" href="business&interview.html">Business&Interview</a>
+                <a class="dropdown-item" href="casual_occasions.html">Casual Outfits</a>
+                <a class="dropdown-item" href="dating_occasions.html">Dating Outfits</a>
+                <a class="dropdown-item" href="party_occasions.html">Party Outfits</a>
+                <a class="dropdown-item" href="roll_up.html">Aggregation</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Tops
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+                <a class="dropdown-item" href="t_shirts.html">T-shirts</a>
+                <a class="dropdown-item" href="shirts.html">Shirts</a>
+                <a class="dropdown-item" href="knitwear.html">Knitwear</a>
+                <a class="dropdown-item" href="outer.html">Outer</a>
+
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Bottoms
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+                <a class="dropdown-item" href="jeans.html">Jeans</a>
+                <a class="dropdown-item" href="casual_pants.html">Casual Pants</a>
+                <a class="dropdown-item" href="suit_pants.html">Suit Pants</a>
+                <a class="dropdown-item" href="skirts.html">Skirts</a>
+
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="map.html">Where to buy</a>
+            </li>
           </ul>
-      </div>
-      </div>
-  </nav>
-
-
-
-      <div class="container"; style="background-color: #7fdedb; width: -webkit-fill-available; height:80px"></div>
-
-      <div class="container"; style="background-color: #7fdedb; height: 150px; width: -webkit-fill-available;">
-        <div class="row">
-          <div class="col-sm-12">
-            <h1 style="text-align:center; -webkit-text-fill-color: white;">Autumn Outfits</h1>
-
-            <p style="text-align:center; -webkit-text-fill-color: #eceaea;">Data by jQuery getJSON and Airtable API.</p>
-            <p style="text-align:center; -webkit-text-fill-color: #eceaea;">Total_price and Money_saved column is calculated by formula to let customers know how much money can be saved.</p>
-          </div>
         </div>
       </div>
+    </nav>
 
-          <div class="container"; style="height:550px">
-            <div class="row">
-              <div class="col-sm-12">
-                <div class="container"; style="width:100px; margin-top:30px">
-                  <button type="button" class="btn btn-warning" id='get_data'>Get Data</button><br>
-                </div>
-                <div class="table-responsive">
-                <table id="table1" width="100%" class="table table-bordered"></table>
-                </div>
-              </div>
+    <header>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <!-- Slide One - Set the background image for this slide in the line below -->
+          <div class="carousel-item active" style="background-image: url('https://images.pexels.com/photos/1036856/pexels-photo-1036856.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260/1900x1080')">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Fashional Outfits</h3>
+              <p>Fashional outfits choices offering for you.</p>
             </div>
           </div>
+          <!-- Slide Two - Set the background image for this slide in the line below -->
+          <div class="carousel-item" style="background-image: url('https://images.pexels.com/photos/285171/pexels-photo-285171.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350/1900x1080')">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Money saving</h3>
+              <p>Save your money with the cheapest price.</p>
+            </div>
+          </div>
+          <!-- Slide Three - Set the background image for this slide in the line below -->
+          <div class="carousel-item" style="background-image: url('https://images.pexels.com/photos/296881/pexels-photo-296881.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260/1900x1080')">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Locations to Buy</h3>
+              <p>One dozen shopping malls detals are listed.</p>
+
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </header>
+
+    <!-- Page Content -->
+    <section class="py-5">
+      <div class="container">
+        <h1>What we offer?</h1>
+        <p>Here you can find female outfits for different <code>occasions</code>, how to <code>dress</code>, how much you can <code>save</code> and where to <code>purchase</code>!
+        </p>
+          <a herf="business&interview.html"><button type="button" class="btn btn-warning" id='start_picking'>Start Picking</button><br></a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Outfits 2018</p>
+      </div>
+      <!-- /.container -->
+    </footer>
 
 
-  <script src='scriptlib2.js'></script>
-</body>
-</html>
+  </body>
+
 </html>

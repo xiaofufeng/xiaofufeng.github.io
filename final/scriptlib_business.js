@@ -47,6 +47,7 @@ $(document).ready(function(){
 //see chart of total price
 $("button#see_total_price").click(function() {
 $("#div1").hide(1000);
+$("#chart2").hide(1000);
 
 var table2_items = [];
          var i = 0;
@@ -75,7 +76,7 @@ var table2_items = [];
                 } ); // end dataTable
 
 
-    var chart = c3.generate({
+    var chart1 = c3.generate({
                          data: {
                              columns: table2_dataSet,
                              type : 'bar'
@@ -105,6 +106,7 @@ var table2_items = [];
        $("button#see_total_price").click(function() {
 
         $("#div1").hide(1000);
+        $("#chart1").hide(1000);
        var table3_items = [];
                 var i = 0;
                 var airtable_read_endpoint =
@@ -132,7 +134,7 @@ var table2_items = [];
                        } ); // end dataTable
 
 
-           var chart = c3.generate({
+           var chart2 = c3.generate({
                                 data: {
                                     columns: table3_dataSet,
                                     type : 'bar'

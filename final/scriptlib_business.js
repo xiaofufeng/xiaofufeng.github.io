@@ -96,8 +96,8 @@ $("#div1").hide(1000);
                                                 lines: [
                                                     {value: 50, text: 'Label 50 for y', position: 'start'},
 
-                                                ]
-                                            }
+                                                        ]
+                                                }
                                           },
                                          bar: {
                                              title: "Money Saved for Each Occasion:",
@@ -151,12 +151,21 @@ $("#div1").hide(1000);
                                            type : 'bar'
                                        },
                                        color: {
-                                               pattern: ['#1f77b4']
+                                               pattern: ['#2CA9FF','#2CA9FF','#1f77b4','#1f77b4','#1f77b4','#1f77b4','#1f77b4','#16547F','#16547F','#16547F']
                                            },
                                        axis: {
                                                    x: {label: 'Outfits code'},
                                                    y: {label: '# of Total Price'}
                                                  },
+                                       grid: {
+                                                 y: {
+                                                     lines: [
+                                                         {value: 300, text: 'Label 300 for y', position: 'start'},
+                                                        {value: 600, text: 'Label 600 for y', position: 'start'},
+                                                        {value: 900, text: 'Label 900 for y', position: 'start'},
+                                                             ]
+                                                     }
+                                               },
                                               bar: {
                                                   title: "Total Price for Each Occasion:",
 

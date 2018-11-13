@@ -140,7 +140,7 @@ $("#div1").hide(1000);
                          } ); // end dataTable
 
 
-             var chart = c3.generate({
+             var div3 = c3.generate({
                                   data: {
                                       columns: table3_dataSet,
                                       type : 'bar'

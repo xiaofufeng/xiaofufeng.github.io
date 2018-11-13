@@ -108,7 +108,7 @@ $("#div1").hide(1000);
         //see chart of total price
         $("button#see_total_price").click(function() {
         $("#div1").hide(1000);
-        $("#chart").hide(1000);
+        
 
         var table2_items = [];
                  var i = 0;
@@ -137,7 +137,7 @@ $("#div1").hide(1000);
                         } ); // end dataTable
 
 
-            var div3 = c3.generate({
+            var chart = c3.generate({
                                  data: {
                                      columns: table2_dataSet,
                                      type : 'bar'

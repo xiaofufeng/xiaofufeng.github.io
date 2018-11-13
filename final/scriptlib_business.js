@@ -86,9 +86,8 @@ var table2_items = [];
                                  pattern: ['#1f77b4']
                              },
                          axis: {
-                                     x: {label: 'Outfits code',
-                                     tick: {
-                                          fit: true
+                                     x: {label: 'Outfits code'
+
                                    },
                                      y: {label: '# of Total price'}
                                    },

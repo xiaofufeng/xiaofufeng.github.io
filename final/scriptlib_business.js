@@ -47,7 +47,7 @@ $(document).ready(function(){
 //see chart of total price
 $("button#see_total_price").click(function() {
 $("#div1").hide(1000);
-
+$("#chart2").hide(1000);
 
 var table2_items = [];
          var i = 0;
@@ -91,11 +91,11 @@ var table2_items = [];
                                 bar: {
                                     title: "Total Price for Each Occasion:",
                                 },
-                                width: {
-                                            width:50 // this makes bar width 50% of length between ticks
-                                        }
-                                        // or
-                                        //width: 100 // this makes bar width 100px
+                          width: {
+                                      width:50 // this makes bar width 50% of length between ticks
+                                  },
+                                  // or
+                                  //width: 100 // this makes bar width 100px
 
                      });
 
@@ -106,7 +106,8 @@ var table2_items = [];
        $("button#see_total_price").click(function() {
 
         $("#div1").hide(1000);
-        
+        $("#chart1").hide(1000);
+
        var table3_items = [];
                 var i = 0;
                 var airtable_read_endpoint =
@@ -151,7 +152,7 @@ var table2_items = [];
                                        },
                                        width: {
                                                    width:30 // this makes bar width 50% of length between ticks
-                                               }
+                                               },
                                                // or
                                                //width: 100 // this makes bar width 100px
 

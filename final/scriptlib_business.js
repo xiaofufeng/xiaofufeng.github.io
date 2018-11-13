@@ -77,7 +77,7 @@ var table2_items = [];
                 } ); // end dataTable
 
 
-    var div2 = c3.generate({
+    var chart = c3.generate({
                          data: {
                              columns: table2_dataSet,
                              type : 'bar'

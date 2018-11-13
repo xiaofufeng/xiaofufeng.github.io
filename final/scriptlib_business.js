@@ -151,7 +151,7 @@ $("#div1").hide(1000);
                                            type : 'bar'
                                        },
                                        color: {
-                                               pattern: ['#2CA9FF','#2CA9FF','#1f77b4','#1f77b4','#1f77b4','#1f77b4','#1f77b4','#16547F','#16547F','#16547F']
+                                               pattern: ['#aec7e8','#aec7e8','#1f77b4','#1f77b4','#1f77b4','#1f77b4','#1f77b4','#16547F','#16547F','#16547F']
                                            },
                                        axis: {
                                                    x: {label: 'Outfits code'},

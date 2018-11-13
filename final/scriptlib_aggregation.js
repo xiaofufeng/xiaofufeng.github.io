@@ -37,7 +37,7 @@ $(document).ready(function(){
                                       type : 'bar'
                                   },
                                   color: {
-                                          pattern: ['#1f77b4','#1f77b4','#1f77b4','#2CA9FF']
+                                          pattern: ['#1f77b4','#1f77b4','#1f77b4','#aec7e8']
                                       },
                                   axis: {
                                               x: {label: 'Occasions'},

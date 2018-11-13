@@ -85,12 +85,20 @@ $("#div1").hide(1000);
                                       type : 'bar'
                                   },
                                   color: {
-                                          pattern: ['#1f77b4']
+                                          pattern: ['#1f77b4','#1f77b4','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#1f77b4','#aec7e8']
                                       },
                                   axis: {
                                               x: {label: 'Outfits code'},
                                               y: {label: '# of Money saved'}
                                             },
+                                  grid: {
+                                            y: {
+                                                lines: [
+                                                    {value: 50, text: 'Label 50 for y', position: 'start'},
+
+                                                ]
+                                            }
+                                          },
                                          bar: {
                                              title: "Money Saved for Each Occasion:",
 

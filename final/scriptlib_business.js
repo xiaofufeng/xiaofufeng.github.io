@@ -46,7 +46,7 @@ $(document).ready(function(){
 
 //see chart of total price
 $("button#see_total_price").click(function() {
-$("table1").hide(1000);
+$("div1").hide(1000);
 
 var table2_items = [];
          var i = 0;

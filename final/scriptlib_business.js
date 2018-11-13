@@ -89,21 +89,20 @@ var table2_items = [];
                                      x: {label: 'Outfits code',
                                           tick: {
                                               count: 20,
-                                              format: '%Y-%m-%d'}
-
+                                              format: '%Y-%m-%d'},
 
                                    },
                                      y: {label: '# of Total price'}
-                                   },
-                                bar: {
-                                    title: "Total Price for Each Occasion:",
-                                },
+                                 },
+                          bar: {
+                              title: "Total Price for Each Occasion:",
+
                           width: {
                                       ratio:0.5 // this makes bar width 50% of length between ticks
                                   },
                                   // or
                                   //width: 100 // this makes bar width 100px
-
+                                },
                      });
 
               }); // end .getJSON

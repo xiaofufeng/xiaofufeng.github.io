@@ -11,6 +11,7 @@ $(document).ready(function(){
                     table1_items.push(value.fields.Outfits_code);
 
                     table1_items.push(value.fields.Occasions_);
+                    table1_items.push('<td><img src="'+value.fields.Tops_image_url+'"style="width:350px;"/></td>');
                     table1_items.push(value.fields.Total_price);
                     table1_items.push(value.fields.Money_saved);
                     table1_items.push(value.fields.Tops_price);
@@ -29,6 +30,8 @@ $(document).ready(function(){
 
                   { title: "Occasions_",
                       defaultContent:"" },
+                      { title: "Tops_image",
+                          defaultContent:"" },
                   { title: "Total_price",
                     defaultContent:"" },
                   { title: "Money_saved",

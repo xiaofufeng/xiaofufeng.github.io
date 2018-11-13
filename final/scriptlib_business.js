@@ -47,7 +47,7 @@ $(document).ready(function(){
 
 //see chart of total price
 $("button#see_total_price").click(function() {
-
+$("#div1").hide(1000);
 
 
 var table2_items = [];
@@ -86,7 +86,10 @@ var table2_items = [];
                                  pattern: ['#1f77b4']
                              },
                          axis: {
-                                     x: {label: 'Outfits code'},
+                                     x: {label: 'Outfits code',
+                                     tick: {
+                                          fit: true
+                                   },
                                      y: {label: '# of Total price'}
                                    },
                                 bar: {

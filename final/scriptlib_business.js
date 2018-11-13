@@ -104,7 +104,7 @@ var table2_items = [];
        //see chart of total price
        $("button#see_total_price").click(function() {
 
-
+        $("#div1").hide(1000);
        var table3_items = [];
                 var i = 0;
                 var airtable_read_endpoint =
@@ -114,7 +114,7 @@ var table2_items = [];
                        $.each(result.records, function(key,value) {
                            table3_items = [];
                                table3_items.push(value.fields.Outfits_code);
-                               table3_items.push(value.fields.Total_price);
+                               table3_items.push(value.fields.Money_saved);
                                table3_dataSet.push(table3_items);
                                console.log(table3_items);
                         }); // end .each
@@ -126,7 +126,7 @@ var table2_items = [];
                            columns: [
                                { title: "Outfits_code",
                                  defaultContent:""},
-                               { title: "Total_price",
+                               { title: "Money_saved",
                                  defaultContent:""},
                            ] // rmf columns
                        } ); // end dataTable
@@ -134,7 +134,7 @@ var table2_items = [];
 
            var chart = c3.generate({
                                 data: {
-                                    columns: table2_dataSet,
+                                    columns: table3_dataSet,
                                     type : 'bar'
                                 },
                                 color: {
@@ -142,10 +142,10 @@ var table2_items = [];
                                     },
                                 axis: {
                                             x: {label: 'Outfits code'},
-                                            y: {label: '# of Total price'}
+                                            y: {label: '# of Money saved'}
                                           },
                                        bar: {
-                                           title: "Total Price for Each Occasion:",
+                                           title: "Money Saved for Each Occasion:",
                                        },
                                        width: {
                                                    width:50 // this makes bar width 50% of length between ticks

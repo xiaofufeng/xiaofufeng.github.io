@@ -37,12 +37,20 @@ $(document).ready(function(){
                                       type : 'bar'
                                   },
                                   color: {
-                                          pattern: ['#1f77b4']
+                                          pattern: ['#1f77b4','#1f77b4','#1f77b4','#2CA9FF']
                                       },
                                   axis: {
                                               x: {label: 'Occasions'},
                                               y: {label: '# of Total Entries'}
                                             },
+                                  grid: {
+                                            y: {
+                                                lines: [
+                                                    {value: 5, text: 'Label 5 for y', position: 'start'},
+
+                                                        ]
+                                                }
+                                          },
                                          bar: {
                                              title: "Number of Outfits for Each Occasion:",
 

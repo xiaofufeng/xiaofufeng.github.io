@@ -112,7 +112,7 @@ var table2_items = [];
    //see chart of total price
          $("button#see_total_price").click(function() {
 $("#div1").hide(1000);
-$("#chart").hide(1000);
+
          var table3_items = [];
                   var i = 0;
                   var airtable_read_endpoint =
@@ -140,7 +140,7 @@ $("#chart").hide(1000);
                          } ); // end dataTable
 
 
-             var div2 = c3.generate({
+             var chart = c3.generate({
                                   data: {
                                       columns: table3_dataSet,
                                       type : 'bar'

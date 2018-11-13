@@ -7,7 +7,7 @@ $(document).ready(function(){
          var table1_items = [];
                   var i = 0;
                   var airtable_read_endpoint =
-                  "https://api.airtable.com/v0/appENaVzPyNLQlumN/Business%26Interview?api_key=keytLf7m73sOFf472&maxRecords=40&view=Grid%20view";
+                  "https://api.airtable.com/v0/appENaVzPyNLQlumN/Occasions?api_key=keytLf7m73sOFf472&maxRecords=40&view=Grid%20view";
                   var table1_dataSet = [];
                   $.getJSON(airtable_read_endpoint, function(result) {
                          $.each(result.records, function(key,value) {

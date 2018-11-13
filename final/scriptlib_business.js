@@ -89,7 +89,7 @@ var table2_items = [];
                                      x: {label: 'Outfits code',
                                           tick: {
                                               count: 20,
-                                              format: '%Y-%m-%d'
+                                              format: '%Y-%m-%d'}
 
 
                                    },

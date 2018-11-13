@@ -80,6 +80,9 @@ var table2_items = [];
                              columns: table2_dataSet,
                              type : 'bar'
                          },
+                         color: {
+                                 pattern: ['#1f77b4']
+                             }
                          axis: {
                                      x: {label: 'Outfits code'},
                                      y: {label: '# of Total price'}
@@ -92,6 +95,7 @@ var table2_items = [];
                                         }
                                         // or
                                         //width: 100 // this makes bar width 100px
+
                      });
 
               }); // end .getJSON

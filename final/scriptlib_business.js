@@ -150,7 +150,7 @@ var table2_items = [];
                                            title: "Money Saved for Each Occasion:",
                                        },
                                        width: {
-                                                   width:50 // this makes bar width 50% of length between ticks
+                                                   width:30 // this makes bar width 50% of length between ticks
                                                }
                                                // or
                                                //width: 100 // this makes bar width 100px

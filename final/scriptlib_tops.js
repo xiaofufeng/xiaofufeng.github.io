@@ -509,7 +509,7 @@ $("#see_chart4").hide(1000);
                                       type : 'bar'
                                   },
                                   color: {
-                                          pattern: ['#aec7e8','#aec7e8','#aec7e8','#aec7e8','#1f77b4','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#1f77b4','#aec7e8','#1f77b4','#aec7e8']
+                                          pattern: ['#1f77b4','#aec7e8','#aec7e8','#aec7e8','#1f77b4','#1f77b4','#1f77b4','#1f77b4','#aec7e8','#1f77b4','#1f77b4','#1f77b4','#1f77b4','#1f77b4','#1f77b4','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#1f77b4','#aec7e8','#1f77b4','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#1f77b4']
                                       },
                                   axis: {
                                               x: {label: 'Outfits code'},
@@ -518,7 +518,7 @@ $("#see_chart4").hide(1000);
                                   grid: {
                                             y: {
                                                 lines: [
-                                                    {value: 100, text: 'Label 100 for y', position: 'start'},
+                                                    {value: 50, text: 'Label 50 for y', position: 'start'},
 
                                                         ]
                                                 }
@@ -527,7 +527,7 @@ $("#see_chart4").hide(1000);
                                              title: "Money Saved for Each Outfit:",
 
                                          width: {
-                                                     ratio:0.4 // this makes bar width 50% of length between ticks
+                                                     ratio:0.6 // this makes bar width 50% of length between ticks
                                                  },
                                                  // or
                                                  //width: 100 // this makes bar width 100px

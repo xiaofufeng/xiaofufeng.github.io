@@ -15,10 +15,7 @@ $(document).ready(function(){
     $("#knitwear").hide(1000);
     $("#outer").hide(1000);
     $("#see_chart").hide(1000);
-    $("#see_chart1").hide(1000);
-    $("#see_chart2").hide(1000);
-    $("#see_chart3").hide(1000);
-    $("#see_chart4").hide(1000);
+
 
      var table1_items = [];
      var i = 0;
@@ -107,10 +104,7 @@ $("button#how_to_match").click(function() {
   $("#knitwear").show(1000);
   $("#outer").show(1000);
   $("#see_chart").show(1000);
-  $("#see_chart1").hide(1000);
-  $("#see_chart2").hide(1000);
-  $("#see_chart3").hide(1000);
-  $("#see_chart4").hide(1000);
+
    var table2_items = [];
    var i = 0;
    var airtable_read_endpoint = "https://api.airtable.com/v0/appENaVzPyNLQlumN/final_tops?api_key=keytLf7m73sOFf472&maxRecords=40&view=Grid%20view";
@@ -194,10 +188,7 @@ $("button#t_shirts").click(function() {
   $("#shirts").show(1000);
   $("#knitwear").show(1000);
   $("#outer").show(1000);
-  $("#see_chart1").hide(1000);
-  $("#see_chart2").hide(1000);
-  $("#see_chart3").hide(1000);
-  $("#see_chart4").hide(1000);
+  $("#see_chart").show(1000);
    var table3_items = [];
    var i = 0;
    var airtable_read_endpoint = "https://api.airtable.com/v0/appENaVzPyNLQlumN/final_t_shirts?api_key=keytLf7m73sOFf472&maxRecords=40&view=Grid%20view";
@@ -262,10 +253,7 @@ $("button#shirts").click(function() {
   $("#shirts").show(1000);
   $("#knitwear").show(1000);
   $("#outer").show(1000);
-  $("#see_chart1").hide(1000);
-  $("#see_chart2").hide(1000);
-  $("#see_chart3").hide(1000);
-  $("#see_chart4").hide(1000);
+  $("#see_chart").show(1000);
    var table4_items = [];
    var i = 0;
    var airtable_read_endpoint = "https://api.airtable.com/v0/appENaVzPyNLQlumN/final_shirts?api_key=keytLf7m73sOFf472&maxRecords=40&view=Grid%20view";
@@ -330,10 +318,7 @@ $("button#knitwear").click(function() {
   $("#shirts").show(1000);
   $("#knitwear").show(1000);
   $("#outer").show(1000);
-  $("#see_chart1").hide(1000);
-  $("#see_chart2").hide(1000);
-  $("#see_chart3").hide(1000);
-  $("#see_chart4").hide(1000);
+  $("#see_chart").show(1000);
    var table5_items = [];
    var i = 0;
    var airtable_read_endpoint = "https://api.airtable.com/v0/appENaVzPyNLQlumN/final_knitwear?api_key=keytLf7m73sOFf472&maxRecords=40&view=Grid%20view";
@@ -398,10 +383,7 @@ $("button#outer").click(function() {
   $("#shirts").show(1000);
   $("#knitwear").show(1000);
   $("#outer").show(1000);
-  $("#see_chart1").hide(1000);
-  $("#see_chart2").hide(1000);
-  $("#see_chart3").hide(1000);
-  $("#see_chart4").hide(1000);
+  $("#see_chart").show(1000);
    var table6_items = [];
    var i = 0;
    var airtable_read_endpoint = "https://api.airtable.com/v0/appENaVzPyNLQlumN/final_outer?api_key=keytLf7m73sOFf472&maxRecords=40&view=Grid%20view";
@@ -469,11 +451,8 @@ $("#t_shirts").show(1000);
 $("#shirts").show(1000);
 $("#knitwear").show(1000);
 $("#outer").show(1000);
-$("#see_chart").show(1000);
-$("#see_chart1").hide(1000);
-$("#see_chart2").hide(1000);
-$("#see_chart3").hide(1000);
-$("#see_chart4").hide(1000);
+
+
          var table7_items = [];
                   var i = 0;
                   var airtable_read_endpoint =

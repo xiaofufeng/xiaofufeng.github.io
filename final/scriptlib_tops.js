@@ -4,6 +4,9 @@ $(document).ready(function(){
     $("#div1").show(1000);
     $("#div2").hide(1000);
     $("#div3").hide(1000);
+    $("#div4").hide(1000);
+    $("#div5").hide(1000);
+    $("#div6").hide(1000);
     $("#chart").hide(1000);
     $("#footer").show(1000);
     $("#how_to_match").show(1000);
@@ -89,12 +92,17 @@ $(document).ready(function(){
 $("button#how_to_match").click(function() {
   $("#div1").show(1000);
   $("#div2").show(1000);
+  $("#div3").hide(1000);
+  $("#div4").hide(1000);
+  $("#div5").hide(1000);
+  $("#div6").hide(1000);
   $("#footer").show(1000);
   $("#how_to_match").show(1000);
   $("#t_shirts").show(1000);
   $("#shirts").show(1000);
   $("#knitwear").show(1000);
   $("#outer").show(1000);
+  $("#see_chart").show(1000);
    var table2_items = [];
    var i = 0;
    var airtable_read_endpoint = "https://api.airtable.com/v0/appENaVzPyNLQlumN/final_tops?api_key=keytLf7m73sOFf472&maxRecords=40&view=Grid%20view";
@@ -169,13 +177,19 @@ $("button#t_shirts").click(function() {
   $("#div1").hide(1000);
   $("#div2").hide(1000);
   $("#div3").show(1000);
+  $("#div4").hide(1000);
+  $("#div5").hide(1000);
+  $("#div6").hide(1000);
   $("#footer").show(1000);
   $("#how_to_match").show(1000);
   $("#t_shirts").show(1000);
   $("#shirts").show(1000);
   $("#knitwear").show(1000);
   $("#outer").show(1000);
-  $("#see_chart").show(1000);
+  $("#see_chart1").show(1000);
+  $("#see_chart2").hide(1000);
+  $("#see_chart3").hide(1000);
+  $("#see_chart4").hide(1000);
    var table3_items = [];
    var i = 0;
    var airtable_read_endpoint = "https://api.airtable.com/v0/appENaVzPyNLQlumN/final_t_shirts?api_key=keytLf7m73sOFf472&maxRecords=40&view=Grid%20view";
@@ -227,12 +241,220 @@ $("button#t_shirts").click(function() {
    }); // end .getJSON
 }); // end button
 
+$("button#shirts").click(function() {
+  $("#div1").hide(1000);
+  $("#div2").hide(1000);
+  $("#div3").hide(1000);
+  $("#div4").show(1000);
+  $("#div5").hide(1000);
+  $("#div6").hide(1000);
+  $("#footer").show(1000);
+  $("#how_to_match").show(1000);
+  $("#t_shirts").show(1000);
+  $("#shirts").show(1000);
+  $("#knitwear").show(1000);
+  $("#outer").show(1000);
+  $("#see_chart1").hide(1000);
+  $("#see_chart2").show(1000);
+  $("#see_chart3").hide(1000);
+  $("#see_chart4").hide(1000);
+   var table4_items = [];
+   var i = 0;
+   var airtable_read_endpoint = "https://api.airtable.com/v0/appENaVzPyNLQlumN/final_shirts?api_key=keytLf7m73sOFf472&maxRecords=40&view=Grid%20view";
+   var table4_dataSet = [];
+   $.getJSON(airtable_read_endpoint, function(result) {
+          $.each(result.records, function(key,value) {
+              table4_items = [];
+                  table4_items.push(value.fields.Outfits_code);
+
+                  table4_items.push(value.fields.Occasions_);
+                  table4_items.push('<td><img src="'+value.fields.Tops_image_url+'"style="width:170px;"/></td>');
+                  table4_items.push(value.fields.Tops_price);
+
+                  table4_items.push('<td><img src="'+value.fields.Bottoms_image_url+'"style="width:170px;"/></td>');
+                  table4_items.push(value.fields.Bottoms_price);
+
+                  table4_items.push(value.fields.Total_price);
+                  table4_items.push(value.fields.Money_saved);
+                  table4_dataSet.push(table4_items);
+                  console.log(table4_items);
+           }); // end .each
+           console.log(table4_dataSet);
+
+        $('#table4').DataTable( {
+            data: table4_dataSet,
+            retrieve: true,
+            columns: [
+                { title: "Outfits_code",
+                  defaultContent:""},
+                { title: "Occasions_",
+                    defaultContent:"" },
+                { title: "Tops_image",
+                    defaultContent:"" },
+                { title: "Tops_price (HKD)",
+                  defaultContent:"" },
+                { title: "Bottoms_image",
+                    defaultContent:"" },
+                { title: "Bottoms_price (HKD)",
+                  defaultContent:"" },
+                { title: "Total_price (HKD)",
+                  defaultContent:"" },
+                { title: "Money_saved (HKD)",
+                  defaultContent:"" },
+
+            ],
+
+            "lengthMenu": [[25, 50, -1], [25, 50, "All"]]
+        } );
+   }); // end .getJSON
+}); // end button
+
+$("button#knitwear").click(function() {
+  $("#div1").hide(1000);
+  $("#div2").hide(1000);
+  $("#div3").hide(1000);
+  $("#div4").hide(1000);
+  $("#div5").show(1000);
+  $("#div6").hide(1000);
+  $("#footer").show(1000);
+  $("#how_to_match").show(1000);
+  $("#t_shirts").show(1000);
+  $("#shirts").show(1000);
+  $("#knitwear").show(1000);
+  $("#outer").show(1000);
+  $("#see_chart1").hide(1000);
+  $("#see_chart2").hide(1000);
+  $("#see_chart3").show(1000);
+  $("#see_chart4").hide(1000);
+   var table5_items = [];
+   var i = 0;
+   var airtable_read_endpoint = "https://api.airtable.com/v0/appENaVzPyNLQlumN/final_knitwear?api_key=keytLf7m73sOFf472&maxRecords=40&view=Grid%20view";
+   var table5_dataSet = [];
+   $.getJSON(airtable_read_endpoint, function(result) {
+          $.each(result.records, function(key,value) {
+              table5_items = [];
+                  table5_items.push(value.fields.Outfits_code);
+
+                  table5_items.push(value.fields.Occasions_);
+                  table5_items.push('<td><img src="'+value.fields.Tops_image_url+'"style="width:170px;"/></td>');
+                  table5_items.push(value.fields.Tops_price);
+
+                  table5_items.push('<td><img src="'+value.fields.Bottoms_image_url+'"style="width:170px;"/></td>');
+                  table5_items.push(value.fields.Bottoms_price);
+
+                  table5_items.push(value.fields.Total_price);
+                  table5_items.push(value.fields.Money_saved);
+                  table5_dataSet.push(table5_items);
+                  console.log(table5_items);
+           }); // end .each
+           console.log(table5_dataSet);
+
+        $('#table5').DataTable( {
+            data: table5_dataSet,
+            retrieve: true,
+            columns: [
+                { title: "Outfits_code",
+                  defaultContent:""},
+                { title: "Occasions_",
+                    defaultContent:"" },
+                { title: "Tops_image",
+                    defaultContent:"" },
+                { title: "Tops_price (HKD)",
+                  defaultContent:"" },
+                { title: "Bottoms_image",
+                    defaultContent:"" },
+                { title: "Bottoms_price (HKD)",
+                  defaultContent:"" },
+                { title: "Total_price (HKD)",
+                  defaultContent:"" },
+                { title: "Money_saved (HKD)",
+                  defaultContent:"" },
+
+            ],
+
+            "lengthMenu": [[25, 50, -1], [25, 50, "All"]]
+        } );
+   }); // end .getJSON
+}); // end button
+
+$("button#outer").click(function() {
+  $("#div1").hide(1000);
+  $("#div2").hide(1000);
+  $("#div3").hide(1000);
+  $("#div4").hide(1000);
+  $("#div5").hide(1000);
+  $("#div6").show(1000);
+  $("#footer").show(1000);
+  $("#how_to_match").show(1000);
+  $("#t_shirts").show(1000);
+  $("#shirts").show(1000);
+  $("#knitwear").show(1000);
+  $("#outer").show(1000);
+  $("#see_chart1").hide(1000);
+  $("#see_chart2").hide(1000);
+  $("#see_chart3").hide(1000);
+  $("#see_chart4").show(1000);
+   var table6_items = [];
+   var i = 0;
+   var airtable_read_endpoint = "https://api.airtable.com/v0/appENaVzPyNLQlumN/final_outer?api_key=keytLf7m73sOFf472&maxRecords=40&view=Grid%20view";
+   var table6_dataSet = [];
+   $.getJSON(airtable_read_endpoint, function(result) {
+          $.each(result.records, function(key,value) {
+              table6_items = [];
+                  table6_items.push(value.fields.Outfits_code);
+
+                  table6_items.push(value.fields.Occasions_);
+                  table6_items.push('<td><img src="'+value.fields.Tops_image_url+'"style="width:170px;"/></td>');
+                  table6_items.push(value.fields.Tops_price);
+
+                  table6_items.push('<td><img src="'+value.fields.Bottoms_image_url+'"style="width:170px;"/></td>');
+                  table6_items.push(value.fields.Bottoms_price);
+
+                  table6_items.push(value.fields.Total_price);
+                  table6_items.push(value.fields.Money_saved);
+                  table6_dataSet.push(table6_items);
+                  console.log(table6_items);
+           }); // end .each
+           console.log(table6_dataSet);
+
+        $('#table6').DataTable( {
+            data: table6_dataSet,
+            retrieve: true,
+            columns: [
+                { title: "Outfits_code",
+                  defaultContent:""},
+                { title: "Occasions_",
+                    defaultContent:"" },
+                { title: "Tops_image",
+                    defaultContent:"" },
+                { title: "Tops_price (HKD)",
+                  defaultContent:"" },
+                { title: "Bottoms_image",
+                    defaultContent:"" },
+                { title: "Bottoms_price (HKD)",
+                  defaultContent:"" },
+                { title: "Total_price (HKD)",
+                  defaultContent:"" },
+                { title: "Money_saved (HKD)",
+                  defaultContent:"" },
+
+            ],
+
+            "lengthMenu": [[25, 50, -1], [25, 50, "All"]]
+        } );
+   }); // end .getJSON
+}); // end button
+
 
    //see chart of mondy saved
          $("button#see_chart").click(function() {
 $("#div1").hide(1000);
 $("#div2").hide(1000);
 $("#div3").hide(1000);
+$("#div4").hide(1000);
+$("#div5").hide(1000);
+$("#div6").hide(1000);
+$("#chart").show(1000);
 $("#footer").show(1000);
 $("#how_to_match").show(1000);
 $("#t_shirts").show(1000);
@@ -240,23 +462,27 @@ $("#shirts").show(1000);
 $("#knitwear").show(1000);
 $("#outer").show(1000);
 $("#see_chart").show(1000);
-         var table4_items = [];
+$("#see_chart1").show(1000);
+$("#see_chart2").hide(1000);
+$("#see_chart3").hide(1000);
+$("#see_chart4").hide(1000);
+         var table7_items = [];
                   var i = 0;
                   var airtable_read_endpoint =
-                  "https://api.airtable.com/v0/appENaVzPyNLQlumN/final_t_shirts?api_key=keytLf7m73sOFf472&maxRecords=40&view=Grid%20view";
-                  var table4_dataSet = [];
+                  "https://api.airtable.com/v0/appENaVzPyNLQlumN/final_tops?api_key=keytLf7m73sOFf472&maxRecords=40&view=Grid%20view";
+                  var table7_dataSet = [];
                   $.getJSON(airtable_read_endpoint, function(result) {
                          $.each(result.records, function(key,value) {
-                             table4_items = [];
-                                 table4_items.push(value.fields.Outfits_code);
-                                 table4_items.push(value.fields.Money_saved);
+                             table7_items = [];
+                                 table7_items.push(value.fields.Outfits_code);
+                                 table7_items.push(value.fields.Money_saved);
 
-                                 table4_dataSet.push(table4_items);
-                                 console.log(table4_items);
+                                 table7_dataSet.push(table7_items);
+                                 console.log(table7_items);
                           }); // end .each
-                          console.log(table4_dataSet);
-                         $('#table4').DataTable( {
-                             data: table4_dataSet,
+                          console.log(table7_dataSet);
+                         $('#table7').DataTable( {
+                             data: table7_dataSet,
                              retrieve: true,
                              ordering: false,
                              columns: [
@@ -271,7 +497,7 @@ $("#see_chart").show(1000);
 
              var chart = c3.generate({
                                   data: {
-                                      columns: table4_dataSet,
+                                      columns: table7_dataSet,
                                       type : 'bar'
                                   },
                                   color: {

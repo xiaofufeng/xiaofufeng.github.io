@@ -15,6 +15,10 @@ $(document).ready(function(){
     $("#knitwear").hide(1000);
     $("#outer").hide(1000);
     $("#see_chart").hide(1000);
+    $("#see_chart1").hide(1000);
+    $("#see_chart2").hide(1000);
+    $("#see_chart3").hide(1000);
+    $("#see_chart4").hide(1000);
 
      var table1_items = [];
      var i = 0;
@@ -103,6 +107,10 @@ $("button#how_to_match").click(function() {
   $("#knitwear").show(1000);
   $("#outer").show(1000);
   $("#see_chart").show(1000);
+  $("#see_chart1").hide(1000);
+  $("#see_chart2").hide(1000);
+  $("#see_chart3").hide(1000);
+  $("#see_chart4").hide(1000);
    var table2_items = [];
    var i = 0;
    var airtable_read_endpoint = "https://api.airtable.com/v0/appENaVzPyNLQlumN/final_tops?api_key=keytLf7m73sOFf472&maxRecords=40&view=Grid%20view";
@@ -186,7 +194,7 @@ $("button#t_shirts").click(function() {
   $("#shirts").show(1000);
   $("#knitwear").show(1000);
   $("#outer").show(1000);
-  $("#see_chart1").show(1000);
+  $("#see_chart1").hide(1000);
   $("#see_chart2").hide(1000);
   $("#see_chart3").hide(1000);
   $("#see_chart4").hide(1000);
@@ -255,7 +263,7 @@ $("button#shirts").click(function() {
   $("#knitwear").show(1000);
   $("#outer").show(1000);
   $("#see_chart1").hide(1000);
-  $("#see_chart2").show(1000);
+  $("#see_chart2").hide(1000);
   $("#see_chart3").hide(1000);
   $("#see_chart4").hide(1000);
    var table4_items = [];
@@ -324,7 +332,7 @@ $("button#knitwear").click(function() {
   $("#outer").show(1000);
   $("#see_chart1").hide(1000);
   $("#see_chart2").hide(1000);
-  $("#see_chart3").show(1000);
+  $("#see_chart3").hide(1000);
   $("#see_chart4").hide(1000);
    var table5_items = [];
    var i = 0;
@@ -393,7 +401,7 @@ $("button#outer").click(function() {
   $("#see_chart1").hide(1000);
   $("#see_chart2").hide(1000);
   $("#see_chart3").hide(1000);
-  $("#see_chart4").show(1000);
+  $("#see_chart4").hide(1000);
    var table6_items = [];
    var i = 0;
    var airtable_read_endpoint = "https://api.airtable.com/v0/appENaVzPyNLQlumN/final_outer?api_key=keytLf7m73sOFf472&maxRecords=40&view=Grid%20view";
@@ -462,7 +470,7 @@ $("#shirts").show(1000);
 $("#knitwear").show(1000);
 $("#outer").show(1000);
 $("#see_chart").show(1000);
-$("#see_chart1").show(1000);
+$("#see_chart1").hide(1000);
 $("#see_chart2").hide(1000);
 $("#see_chart3").hide(1000);
 $("#see_chart4").hide(1000);

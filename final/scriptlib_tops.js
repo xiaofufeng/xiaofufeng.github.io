@@ -1,13 +1,21 @@
 $(document).ready(function(){
 
-  $("button#t_shirts").click(function() {
+  $("button#see_tops").click(function() {
     $("#div1").show(1000);
+    $("#div2").hide(1000);
+    $("#div3").hide(1000);
+    $("#chart").hide(1000);
     $("#footer").show(1000);
     $("#how_to_match").show(1000);
-    $("#see_chart").show(1000);
+    $("#t_shirts").hide(1000);
+    $("#shirts").hide(1000);
+    $("#knitwear").hide(1000);
+    $("#outer").hide(1000);
+    $("#see_chart").hide(1000);
+
      var table1_items = [];
      var i = 0;
-     var airtable_read_endpoint = "https://api.airtable.com/v0/appENaVzPyNLQlumN/final_t_shirts?api_key=keytLf7m73sOFf472&maxRecords=40&view=Grid%20view";
+     var airtable_read_endpoint = "https://api.airtable.com/v0/appENaVzPyNLQlumN/final_tops?api_key=keytLf7m73sOFf472&maxRecords=40&view=Grid%20view";
      var table1_dataSet = [];
      $.getJSON(airtable_read_endpoint, function(result) {
             $.each(result.records, function(key,value) {
@@ -83,10 +91,13 @@ $("button#how_to_match").click(function() {
   $("#div2").show(1000);
   $("#footer").show(1000);
   $("#how_to_match").show(1000);
-  $("#see_chart").show(1000);
+  $("#t_shirts").show(1000);
+  $("#shirts").show(1000);
+  $("#knitwear").show(1000);
+  $("#outer").show(1000);
    var table2_items = [];
    var i = 0;
-   var airtable_read_endpoint = "https://api.airtable.com/v0/appENaVzPyNLQlumN/final_t_shirts?api_key=keytLf7m73sOFf472&maxRecords=40&view=Grid%20view";
+   var airtable_read_endpoint = "https://api.airtable.com/v0/appENaVzPyNLQlumN/final_tops?api_key=keytLf7m73sOFf472&maxRecords=40&view=Grid%20view";
    var table2_dataSet = [];
    $.getJSON(airtable_read_endpoint, function(result) {
           $.each(result.records, function(key,value) {
@@ -154,30 +165,98 @@ $("button#how_to_match").click(function() {
 }); // end button
 
 
+$("button#t_shirts").click(function() {
+  $("#div1").hide(1000);
+  $("#div2").hide(1000);
+  $("#div3").show(1000);
+  $("#footer").show(1000);
+  $("#how_to_match").show(1000);
+  $("#t_shirts").show(1000);
+  $("#shirts").show(1000);
+  $("#knitwear").show(1000);
+  $("#outer").show(1000);
+  $("#see_chart").show(1000);
+   var table3_items = [];
+   var i = 0;
+   var airtable_read_endpoint = "https://api.airtable.com/v0/appENaVzPyNLQlumN/final_t_shirts?api_key=keytLf7m73sOFf472&maxRecords=40&view=Grid%20view";
+   var table3_dataSet = [];
+   $.getJSON(airtable_read_endpoint, function(result) {
+          $.each(result.records, function(key,value) {
+              table3_items = [];
+                  table3_items.push(value.fields.Outfits_code);
+
+                  table3_items.push(value.fields.Occasions_);
+                  table3_items.push('<td><img src="'+value.fields.Tops_image_url+'"style="width:170px;"/></td>');
+                  table3_items.push(value.fields.Tops_price);
+
+                  table3_items.push('<td><img src="'+value.fields.Bottoms_image_url+'"style="width:170px;"/></td>');
+                  table3_items.push(value.fields.Bottoms_price);
+
+                  table3_items.push(value.fields.Total_price);
+                  table3_items.push(value.fields.Money_saved);
+                  table3_dataSet.push(table3_items);
+                  console.log(table3_items);
+           }); // end .each
+           console.log(table3_dataSet);
+
+        $('#table3').DataTable( {
+            data: table3_dataSet,
+            retrieve: true,
+            columns: [
+                { title: "Outfits_code",
+                  defaultContent:""},
+                { title: "Occasions_",
+                    defaultContent:"" },
+                { title: "Tops_image",
+                    defaultContent:"" },
+                { title: "Tops_price (HKD)",
+                  defaultContent:"" },
+                { title: "Bottoms_image",
+                    defaultContent:"" },
+                { title: "Bottoms_price (HKD)",
+                  defaultContent:"" },
+                { title: "Total_price (HKD)",
+                  defaultContent:"" },
+                { title: "Money_saved (HKD)",
+                  defaultContent:"" },
+
+            ],
+
+            "lengthMenu": [[25, 50, -1], [25, 50, "All"]]
+        } );
+   }); // end .getJSON
+}); // end button
 
 
    //see chart of mondy saved
          $("button#see_chart").click(function() {
 $("#div1").hide(1000);
 $("#div2").hide(1000);
+$("#div3").hide(1000);
 $("#footer").show(1000);
-         var table3_items = [];
+$("#how_to_match").show(1000);
+$("#t_shirts").show(1000);
+$("#shirts").show(1000);
+$("#knitwear").show(1000);
+$("#outer").show(1000);
+$("#see_chart").show(1000);
+         var table4_items = [];
                   var i = 0;
                   var airtable_read_endpoint =
                   "https://api.airtable.com/v0/appENaVzPyNLQlumN/final_t_shirts?api_key=keytLf7m73sOFf472&maxRecords=40&view=Grid%20view";
-                  var table3_dataSet = [];
+                  var table4_dataSet = [];
                   $.getJSON(airtable_read_endpoint, function(result) {
                          $.each(result.records, function(key,value) {
-                             table3_items = [];
-                                 table3_items.push(value.fields.Outfits_code);
-                                 table3_items.push(value.fields.Money_saved);
-                                 
-                                 table3_dataSet.push(table3_items);
-                                 console.log(table3_items);
+                             table4_items = [];
+                                 table4_items.push(value.fields.Outfits_code);
+                                 table4_items.push(value.fields.Money_saved);
+
+                                 table4_dataSet.push(table4_items);
+                                 console.log(table4_items);
                           }); // end .each
-                          console.log(table3_dataSet);
-                         $('#table3').DataTable( {
-                             data: table3_dataSet,
+                          console.log(table4_dataSet);
+                         $('#table4').DataTable( {
+                             data: table4_dataSet,
                              retrieve: true,
                              ordering: false,
                              columns: [
@@ -192,7 +271,7 @@ $("#footer").show(1000);
 
              var chart = c3.generate({
                                   data: {
-                                      columns: table3_dataSet,
+                                      columns: table4_dataSet,
                                       type : 'bar'
                                   },
                                   color: {

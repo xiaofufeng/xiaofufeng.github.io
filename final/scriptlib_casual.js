@@ -4,7 +4,7 @@ $(document).ready(function(){
     $("#div1").show(1000);
      var table1_items = [];
      var i = 0;
-     var airtable_read_endpoint = "https://api.airtable.com/v0/appENaVzPyNLQlumN/Business%26Interview?api_key=keytLf7m73sOFf472&maxRecords=40&view=Grid%20view";
+     var airtable_read_endpoint = "https://api.airtable.com/v0/appENaVzPyNLQlumN/Casual_outfits?api_key=keytLf7m73sOFf472&maxRecords=40&view=Grid%20view";
      var table1_dataSet = [];
      $.getJSON(airtable_read_endpoint, function(result) {
             $.each(result.records, function(key,value) {
@@ -55,7 +55,7 @@ $("#div1").hide(1000);
          var table3_items = [];
                   var i = 0;
                   var airtable_read_endpoint =
-                  "https://api.airtable.com/v0/appENaVzPyNLQlumN/Business%26Interview?api_key=keytLf7m73sOFf472&maxRecords=40&view=Grid%20view";
+                  "https://api.airtable.com/v0/appENaVzPyNLQlumN/Casual_outfits?api_key=keytLf7m73sOFf472&maxRecords=40&view=Grid%20view";
                   var table3_dataSet = [];
                   $.getJSON(airtable_read_endpoint, function(result) {
                          $.each(result.records, function(key,value) {
@@ -121,7 +121,7 @@ $("#div1").hide(1000);
               var table2_items = [];
                        var i = 0;
                        var airtable_read_endpoint =
-                       "https://api.airtable.com/v0/appENaVzPyNLQlumN/Business%26Interview?api_key=keytLf7m73sOFf472&maxRecords=40&view=Grid%20view";
+                       "https://api.airtable.com/v0/appENaVzPyNLQlumN/Casual_outfits?api_key=keytLf7m73sOFf472&maxRecords=40&view=Grid%20view";
                        var table2_dataSet = [];
                        $.getJSON(airtable_read_endpoint, function(result) {
                               $.each(result.records, function(key,value) {

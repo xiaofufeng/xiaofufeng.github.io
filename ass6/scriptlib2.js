@@ -30,7 +30,7 @@ $(document).ready(function(){
 
                   { title: "Occasions_",
                       defaultContent:"" },
-                      { title: "Tops_image",
+                      { title: "Tops",
                           defaultContent:"" },
                   { title: "Total_price",
                     defaultContent:"" },

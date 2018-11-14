@@ -80,6 +80,7 @@ $(document).ready(function(){
 
 $("button#how_to_match").click(function() {
   $("#div1").show(1000);
+  $("#div2").show(1000);
   $("#footer").show(1000);
   $("#how_to_match").show(1000);
   $("#see_chart").show(1000);

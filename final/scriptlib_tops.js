@@ -171,7 +171,7 @@ $("#footer").show(1000);
                              table3_items = [];
                                  table3_items.push(value.fields.Outfits_code);
                                  table3_items.push(value.fields.Money_saved);
-                                 table3_items.push(value.fields.Total_price);
+                                 
                                  table3_dataSet.push(table3_items);
                                  console.log(table3_items);
                           }); // end .each
@@ -185,8 +185,7 @@ $("#footer").show(1000);
                                    defaultContent:""},
                                  { title: "Money_saved",
                                    defaultContent:""},
-                                 { title: "Total_price",
-                                   defaultContent:""},
+
                              ] // rmf columns
                          } ); // end dataTable
 
@@ -226,7 +225,7 @@ $("#footer").show(1000);
                        }); // end .getJSON
                     }); // end button
 
-        
+
 
 
 }); // document ready

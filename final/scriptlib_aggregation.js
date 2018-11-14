@@ -2,7 +2,7 @@ $(document).ready(function(){
 
    //see chart of aggregation
          $("button#see_aggregation").click(function() {
-
+$("#footer").show(1000);
 
          var table1_items = [];
                   var i = 0;

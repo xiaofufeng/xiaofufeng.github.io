@@ -2,6 +2,7 @@ $(document).ready(function(){
 
   $("button#see_outfits").click(function() {
     $("#div1").show(1000);
+    $("#footer").show(1000);
      var table1_items = [];
      var i = 0;
      var airtable_read_endpoint = "https://api.airtable.com/v0/appENaVzPyNLQlumN/Dating_outfits?api_key=keytLf7m73sOFf472&maxRecords=40&view=Grid%20view";
@@ -51,7 +52,7 @@ $(document).ready(function(){
    //see chart of mondy saved
          $("button#see_money_saved").click(function() {
 $("#div1").hide(1000);
-
+$("#footer").show(1000);
          var table3_items = [];
                   var i = 0;
                   var airtable_read_endpoint =
@@ -117,7 +118,7 @@ $("#div1").hide(1000);
 
               $("button#see_total_price").click(function() {
      $("#div1").hide(1000);
-
+     $("#footer").show(1000);
               var table2_items = [];
                        var i = 0;
                        var airtable_read_endpoint =

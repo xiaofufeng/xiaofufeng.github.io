@@ -199,12 +199,12 @@ $("button#jeans").click(function() {
                   table3_items.push(value.fields.Outfits_code);
 
                   table3_items.push(value.fields.Occasions_);
-                  table3_items.push('<td><img src="'+value.fields.Tops_image_url+'"style="width:170px;"/></td>');
-                  table3_items.push(value.fields.Tops_price);
+
 
                   table3_items.push('<td><img src="'+value.fields.Bottoms_image_url+'"style="width:170px;"/></td>');
                   table3_items.push(value.fields.Bottoms_price);
-
+                  table3_items.push('<td><img src="'+value.fields.Tops_image_url+'"style="width:170px;"/></td>');
+                  table3_items.push(value.fields.Tops_price);
                   table3_items.push(value.fields.Total_price);
                   table3_items.push(value.fields.Money_saved);
                   table3_dataSet.push(table3_items);
@@ -220,14 +220,15 @@ $("button#jeans").click(function() {
                   defaultContent:""},
                 { title: "Occasions_",
                     defaultContent:"" },
-                { title: "Tops_image",
-                    defaultContent:"" },
-                { title: "Tops_price (HKD)",
-                  defaultContent:"" },
+
                 { title: "Bottoms_image",
                     defaultContent:"" },
                 { title: "Bottoms_price (HKD)",
                   defaultContent:"" },
+                  { title: "Tops_image",
+                      defaultContent:"" },
+                  { title: "Tops_price (HKD)",
+                    defaultContent:"" },
                 { title: "Total_price (HKD)",
                   defaultContent:"" },
                 { title: "Money_saved (HKD)",
@@ -264,12 +265,12 @@ $("button#casual_pants").click(function() {
                   table4_items.push(value.fields.Outfits_code);
 
                   table4_items.push(value.fields.Occasions_);
-                  table4_items.push('<td><img src="'+value.fields.Tops_image_url+'"style="width:170px;"/></td>');
-                  table4_items.push(value.fields.Tops_price);
+
 
                   table4_items.push('<td><img src="'+value.fields.Bottoms_image_url+'"style="width:170px;"/></td>');
                   table4_items.push(value.fields.Bottoms_price);
-
+                  table4_items.push('<td><img src="'+value.fields.Tops_image_url+'"style="width:170px;"/></td>');
+                  table4_items.push(value.fields.Tops_price);
                   table4_items.push(value.fields.Total_price);
                   table4_items.push(value.fields.Money_saved);
                   table4_dataSet.push(table4_items);
@@ -285,14 +286,15 @@ $("button#casual_pants").click(function() {
                   defaultContent:""},
                 { title: "Occasions_",
                     defaultContent:"" },
-                { title: "Tops_image",
-                    defaultContent:"" },
-                { title: "Tops_price (HKD)",
-                  defaultContent:"" },
+
                 { title: "Bottoms_image",
                     defaultContent:"" },
                 { title: "Bottoms_price (HKD)",
                   defaultContent:"" },
+                  { title: "Tops_image",
+                      defaultContent:"" },
+                  { title: "Tops_price (HKD)",
+                    defaultContent:"" },
                 { title: "Total_price (HKD)",
                   defaultContent:"" },
                 { title: "Money_saved (HKD)",
@@ -329,12 +331,12 @@ $("button#suit_pants").click(function() {
                   table5_items.push(value.fields.Outfits_code);
 
                   table5_items.push(value.fields.Occasions_);
-                  table5_items.push('<td><img src="'+value.fields.Tops_image_url+'"style="width:170px;"/></td>');
-                  table5_items.push(value.fields.Tops_price);
+
 
                   table5_items.push('<td><img src="'+value.fields.Bottoms_image_url+'"style="width:170px;"/></td>');
                   table5_items.push(value.fields.Bottoms_price);
-
+                  table5_items.push('<td><img src="'+value.fields.Tops_image_url+'"style="width:170px;"/></td>');
+                  table5_items.push(value.fields.Tops_price);
                   table5_items.push(value.fields.Total_price);
                   table5_items.push(value.fields.Money_saved);
                   table5_dataSet.push(table5_items);
@@ -350,14 +352,15 @@ $("button#suit_pants").click(function() {
                   defaultContent:""},
                 { title: "Occasions_",
                     defaultContent:"" },
-                { title: "Tops_image",
-                    defaultContent:"" },
-                { title: "Tops_price (HKD)",
-                  defaultContent:"" },
+
                 { title: "Bottoms_image",
                     defaultContent:"" },
                 { title: "Bottoms_price (HKD)",
                   defaultContent:"" },
+                  { title: "Tops_image",
+                      defaultContent:"" },
+                  { title: "Tops_price (HKD)",
+                    defaultContent:"" },
                 { title: "Total_price (HKD)",
                   defaultContent:"" },
                 { title: "Money_saved (HKD)",
@@ -394,12 +397,12 @@ $("button#skirts").click(function() {
                   table6_items.push(value.fields.Outfits_code);
 
                   table6_items.push(value.fields.Occasions_);
-                  table6_items.push('<td><img src="'+value.fields.Tops_image_url+'"style="width:170px;"/></td>');
-                  table6_items.push(value.fields.Tops_price);
+
 
                   table6_items.push('<td><img src="'+value.fields.Bottoms_image_url+'"style="width:170px;"/></td>');
                   table6_items.push(value.fields.Bottoms_price);
-
+                  table6_items.push('<td><img src="'+value.fields.Tops_image_url+'"style="width:170px;"/></td>');
+                  table6_items.push(value.fields.Tops_price);
                   table6_items.push(value.fields.Total_price);
                   table6_items.push(value.fields.Money_saved);
                   table6_dataSet.push(table6_items);
@@ -415,14 +418,15 @@ $("button#skirts").click(function() {
                   defaultContent:""},
                 { title: "Occasions_",
                     defaultContent:"" },
-                { title: "Tops_image",
-                    defaultContent:"" },
-                { title: "Tops_price (HKD)",
-                  defaultContent:"" },
+
                 { title: "Bottoms_image",
                     defaultContent:"" },
                 { title: "Bottoms_price (HKD)",
                   defaultContent:"" },
+                  { title: "Tops_image",
+                      defaultContent:"" },
+                  { title: "Tops_price (HKD)",
+                    defaultContent:"" },
                 { title: "Total_price (HKD)",
                   defaultContent:"" },
                 { title: "Money_saved (HKD)",

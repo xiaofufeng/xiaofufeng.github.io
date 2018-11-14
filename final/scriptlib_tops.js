@@ -171,6 +171,7 @@ $("#footer").show(1000);
                              table3_items = [];
                                  table3_items.push(value.fields.Outfits_code);
                                  table3_items.push(value.fields.Money_saved);
+                                 table3_items.push(value.fields.Total_price);
                                  table3_dataSet.push(table3_items);
                                  console.log(table3_items);
                           }); // end .each
@@ -183,6 +184,8 @@ $("#footer").show(1000);
                                  { title: "Outfits_code",
                                    defaultContent:""},
                                  { title: "Money_saved",
+                                   defaultContent:""},
+                                 { title: "Total_price",
                                    defaultContent:""},
                              ] // rmf columns
                          } ); // end dataTable
@@ -209,7 +212,7 @@ $("#footer").show(1000);
                                                 }
                                           },
                                          bar: {
-                                             title: "Money Saved for Each Occasion:",
+                                             title: "Money Saved for Each Outfit:",
 
                                          width: {
                                                      ratio:0.4 // this makes bar width 50% of length between ticks
@@ -218,6 +221,38 @@ $("#footer").show(1000);
                                                  //width: 100 // this makes bar width 100px
                                                 },
                               });
+
+              var div4 = c3.generate({
+                                   data: {
+                                       columns: table3_dataSet,
+                                       type : 'bar'
+                                   },
+                                   color: {
+                                           pattern: ['#aec7e8','#aec7e8','#1f77b4','#1f77b4','#1f77b4','#1f77b4','#1f77b4','#16547F','#16547F','#16547F']
+                                       },
+                                   axis: {
+                                               x: {label: 'Outfits code'},
+                                               y: {label: '# of Total Price (HKD)'}
+                                             },
+                                   grid: {
+                                             y: {
+                                                 lines: [
+                                                     {value: 300, text: 'Label 300 for y', position: 'start'},
+                                                    {value: 600, text: 'Label 600 for y', position: 'start'},
+                                                    {value: 900, text: 'Label 900 for y', position: 'start'},
+                                                         ]
+                                                 }
+                                           },
+                                          bar: {
+                                              title: "Total Price for Each Outfit:",
+
+                                          width: {
+                                                      ratio:0.4 // this makes bar width 50% of length between ticks
+                                                  },
+                                                  // or
+                                                  //width: 100 // this makes bar width 100px
+                                                 },
+                               });
 
                        }); // end .getJSON
                     }); // end button

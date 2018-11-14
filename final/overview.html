@@ -100,16 +100,49 @@
     <<!-- Page Content -->
     <section class="py-5">
       <div class="container">
-        <h1>Party Outfits</h1>
-        <p></p>
-          <button type="reset" onclick="location.href='business.html'" class="btn btn-warning" id='see_outfits'>Business&Interview</button>
+        <div class="row">
+          <div class="col-sm-5">
+          </div>
 
-          <button type="reset" onclick="location.href='casual_occasions.html'" class="btn btn-warning" id='see_money_saved'>Casual Outfits</button>
-          <button type="reset" onclick="location.href='dating_occasions.html'" class="btn btn-warning" id='see_total_price'>Dating Outfits</button>
-          <button type="reset" onclick="location.href='party_occasions.html'" class="btn btn-warning" id='see_total_price'>Party Outfits</button>
-          <button type="reset" onclick="location.href='business_aggregation.html'" class="btn btn-danger" id='start_picking'>
-      See Aggregation
+          <div class="col-sm-7">
+          <h1 style="display:none">Overview</h1>
+          <p></p>
+
+          <button style="display:none" type="reset" onclick="location.href='business_aggregation.html'" class="btn btn-danger" id='start_picking'>
+          See Aggregation
           </button>
+          </div>
+        </div>
+
+          <div class="row">
+            <div class="col-sm-2">
+
+            </div>
+            <div class="col-sm-10">
+              <a href="business.html" class="btn btn-light">
+                <img src="https://images.pexels.com/photos/630839/pexels-photo-630839.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=120&w=200"
+                 class="pull-left"/><br>
+                Business&Interview
+              </a>
+              <a href="casual_occasions.html" class="btn btn-light">
+                <img src="https://images.pexels.com/photos/716966/pexels-photo-716966.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=120&w=200"
+                 class="pull-left"/><br>
+                Casual Outfits
+              </a>
+              <a href="party_occasions.html" class="btn btn-light">
+                <img src="https://images.pexels.com/photos/842546/pexels-photo-842546.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=120&w=200"
+                 class="pull-left"/><br>
+                Dating Outfits
+              </a>
+              <a href="party_occasions.html" class="btn btn-light">
+                <img src="https://images.pexels.com/photos/787961/pexels-photo-787961.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=120&w=200"
+                 class="pull-left"/><br>
+                Party Outfits
+              </a><br>
+            </div>
+
+          </div>
+
 
 
           <div class="table-responsive" id="div1">
@@ -126,7 +159,7 @@
     <script src='scriptlib_party.js'></script>
 
     <!-- Footer -->
-    <footer class="py-5 bg-dark" style="display:none" id="footer">
+    <footer class="py-5 bg-dark" id="footer">
       <div class="container">
         <p class="m-0 text-center text-white">Copyright &copy; Outfits 2018</p>
       </div>

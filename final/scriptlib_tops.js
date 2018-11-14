@@ -222,37 +222,6 @@ $("#footer").show(1000);
                                                 },
                               });
 
-              var div4 = c3.generate({
-                                   data: {
-                                       columns: table3_dataSet,
-                                       type : 'bar'
-                                   },
-                                   color: {
-                                           pattern: ['#aec7e8','#aec7e8','#1f77b4','#1f77b4','#1f77b4','#1f77b4','#1f77b4','#16547F','#16547F','#16547F']
-                                       },
-                                   axis: {
-                                               x: {label: 'Outfits code'},
-                                               y: {label: '# of Total Price (HKD)'}
-                                             },
-                                   grid: {
-                                             y: {
-                                                 lines: [
-                                                     {value: 300, text: 'Label 300 for y', position: 'start'},
-                                                    {value: 600, text: 'Label 600 for y', position: 'start'},
-                                                    {value: 900, text: 'Label 900 for y', position: 'start'},
-                                                         ]
-                                                 }
-                                           },
-                                          bar: {
-                                              title: "Total Price for Each Outfit:",
-
-                                          width: {
-                                                      ratio:0.4 // this makes bar width 50% of length between ticks
-                                                  },
-                                                  // or
-                                                  //width: 100 // this makes bar width 100px
-                                                 },
-                               });
 
                        }); // end .getJSON
                     }); // end button

@@ -34,9 +34,9 @@ $(document).ready(function(){
                       defaultContent:"" },
                   { title: "Bottoms_image",
                       defaultContent:"" },
-                  { title: "Total_price",
+                  { title: "Total_price(HKD)",
                     defaultContent:"" },
-                  { title: "Money_saved",
+                  { title: "Money_saved(HKD)",
                     defaultContent:""},
 
               ]
@@ -89,7 +89,7 @@ $("#div1").hide(1000);
                                       },
                                   axis: {
                                               x: {label: 'Outfits code'},
-                                              y: {label: '# of Money saved'}
+                                              y: {label: '# of Money saved(HKD)'}
                                             },
                                   grid: {
                                             y: {
@@ -155,7 +155,7 @@ $("#div1").hide(1000);
                                            },
                                        axis: {
                                                    x: {label: 'Outfits code'},
-                                                   y: {label: '# of Total Price'}
+                                                   y: {label: '# of Total Price(HKD)'}
                                                  },
                                        grid: {
                                                  y: {

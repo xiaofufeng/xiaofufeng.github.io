@@ -197,7 +197,7 @@ $("#footer").show(1000);
                                       type : 'bar'
                                   },
                                   color: {
-                                          pattern: ['#1f77b4','#1f77b4','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#1f77b4','#aec7e8']
+                                          pattern: ['#aec7e8','#aec7e8','#aec7e8','#aec7e8','#1f77b4','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#1f77b4','#aec7e8','#1f77b4','#aec7e8']
                                       },
                                   axis: {
                                               x: {label: 'Outfits code'},
@@ -206,7 +206,7 @@ $("#footer").show(1000);
                                   grid: {
                                             y: {
                                                 lines: [
-                                                    {value: 50, text: 'Label 50 for y', position: 'start'},
+                                                    {value: 100, text: 'Label 100 for y', position: 'start'},
 
                                                         ]
                                                 }

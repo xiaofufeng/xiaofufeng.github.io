@@ -85,7 +85,7 @@ $("#div1").hide(1000);
                                       type : 'bar'
                                   },
                                   color: {
-                                          pattern: ['#1f77b4','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8']
+                                          pattern: ['#1f77b4','#aec7e8','#1f77b4','#aec7e8','#aec7e8']
                                       },
                                   axis: {
                                               x: {label: 'Outfits code'},
@@ -151,7 +151,7 @@ $("#div1").hide(1000);
                                            type : 'bar'
                                        },
                                        color: {
-                                               pattern: ['#1f77b4','#1f77b4','#aec7e8','#aec7e8','#1f77b4','#1f77b4','#16547F','#16547F','#16547F']
+                                               pattern: ['#aec7e8','#16547F','#aec7e8','#aec7e8','#1f77b4']
                                            },
                                        axis: {
                                                    x: {label: 'Outfits code'},

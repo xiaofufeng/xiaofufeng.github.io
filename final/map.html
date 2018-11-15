@@ -120,6 +120,7 @@
                items = {};
                    items["Store_name"] = value.fields.Store_name;
                    items["Store_url"] = value.fields.Store_url;
+                   items["final_store_url"] = value.fields.final_store_url;
                    items["Store_image_url"] = value.fields.Store_image_url;
                    items["latitud"] = value.fields.Lat;
                    items["longitud"] = value.fields.Lng;
@@ -143,7 +144,7 @@ function show_districts(){
   for (var i in data) {
       var latlng = L.latLng({ lat: data[i].latitud, lng: data[i].longitud });
       L.marker( latlng, {icon: icon})
-          .bindPopup( '<a href="' + data[i].Store_url + '" target="_blank">' + '<img src="' + data[i].Store_image_url+'" width = "80px"><br>'+data[i].Store_name + '<br>'+data[i].Tel + '</a>' )
+          .bindPopup( '<a href="' + data[i].final_store_url + '" target="_blank">' + '<img src="' + data[i].Store_image_url+'" width = "80px"><br>'+data[i].Store_name + '<br>'+data[i].Tel + '</a>' )
           .addTo(map);
   }
 }

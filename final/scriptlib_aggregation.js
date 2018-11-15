@@ -37,7 +37,7 @@ $("#footer").show(1000);
                                       type : 'bar'
                                   },
                                   color: {
-                                          pattern: ['#1f77b4','#1f77b4','#1f77b4','#aec7e8']
+                                          pattern: []
                                       },
                                   axis: {
                                               x: {label: 'Occasions'},

@@ -1,6 +1,27 @@
 $(document).ready(function(){
+    $("button#see_cards").click(function() {
+      $("#card_count").show(1000);
+      $("#div1").hide(1000);
+      $("#div2").hide(1000);
+      $("#div3").hide(1000);
+      $("#div4").hide(1000);
+      $("#div5").hide(1000);
+      $("#div6").hide(1000);
+      $("#chart").hide(1000);
+      $("#footer").show(1000);
+      $("#how_to_match").hide(1000);
+      $("#jeans").hide(1000);
+      $("#casual_pants").hide(1000);
+      $("#suit_pants").hide(1000);
+      $("#skirts").hide(1000);
+      $("#see_chart").hide(1000);
 
-  $("button#see_bottoms").click(function() {
+
+
+    }); // end button
+
+  $("button#see_table").click(function() {
+    $("#card_count").hide(1000);
     $("#div1").show(1000);
     $("#div2").hide(1000);
     $("#div3").hide(1000);

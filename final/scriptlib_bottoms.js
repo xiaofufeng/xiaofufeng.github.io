@@ -198,7 +198,7 @@ $("button#jeans").click(function() {
               table3_items = [];
                   table3_items.push(value.fields.Outfits_code);
 
-                  table3_items.push(value.fields.category_bottom_);
+                  table3_items.push(value.fields.Category_bottom_);
 
 
                   table3_items.push('<td><img src="'+value.fields.Bottoms_image_url+'"style="width:170px;"/></td>');
@@ -264,7 +264,7 @@ $("button#casual_pants").click(function() {
               table4_items = [];
                   table4_items.push(value.fields.Outfits_code);
 
-                  table4_items.push(value.fields.category_bottom_);
+                  table4_items.push(value.fields.Category_bottom_);
 
 
                   table4_items.push('<td><img src="'+value.fields.Bottoms_image_url+'"style="width:170px;"/></td>');
@@ -330,7 +330,7 @@ $("button#suit_pants").click(function() {
               table5_items = [];
                   table5_items.push(value.fields.Outfits_code);
 
-                  table5_items.push(value.fields.category_bottom_);
+                  table5_items.push(value.fields.Category_bottom_);
 
 
                   table5_items.push('<td><img src="'+value.fields.Bottoms_image_url+'"style="width:170px;"/></td>');
@@ -396,7 +396,7 @@ $("button#skirts").click(function() {
               table6_items = [];
                   table6_items.push(value.fields.Outfits_code);
 
-                  table6_items.push(value.fields.category_bottom_);
+                  table6_items.push(value.fields.Category_bottom_);
 
 
                   table6_items.push('<td><img src="'+value.fields.Bottoms_image_url+'"style="width:170px;"/></td>');

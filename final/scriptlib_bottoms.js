@@ -98,12 +98,12 @@ $("button#how_to_match").click(function() {
   $("#div5").hide(1000);
   $("#div6").hide(1000);
   $("#footer").show(1000);
-  $("#how_to_match").show(1000);
-  $("#jeans").show(1000);
-  $("#casual_pants").show(1000);
-  $("#suit_pants").show(1000);
-  $("#skirts").show(1000);
-  $("#see_chart").show(1000);
+  $("#how_to_match").show(1500);
+  $("#jeans").show(1500);
+  $("#casual_pants").show(1500);
+  $("#suit_pants").show(1500);
+  $("#skirts").show(1500);
+  $("#see_chart").show(1500);
 
    var table2_items = [];
    var i = 0;
@@ -198,7 +198,7 @@ $("button#jeans").click(function() {
               table3_items = [];
                   table3_items.push(value.fields.Outfits_code);
 
-                  table3_items.push(value.fields.Occasions_);
+                  table3_items.push(value.fields.category_bottom_);
 
 
                   table3_items.push('<td><img src="'+value.fields.Bottoms_image_url+'"style="width:170px;"/></td>');
@@ -218,7 +218,7 @@ $("button#jeans").click(function() {
             columns: [
                 { title: "Outfits_code",
                   defaultContent:""},
-                { title: "Occasions_",
+                { title: "Category",
                     defaultContent:"" },
 
                 { title: "Bottoms_image",
@@ -264,7 +264,7 @@ $("button#casual_pants").click(function() {
               table4_items = [];
                   table4_items.push(value.fields.Outfits_code);
 
-                  table4_items.push(value.fields.Occasions_);
+                  table4_items.push(value.fields.category_bottom_);
 
 
                   table4_items.push('<td><img src="'+value.fields.Bottoms_image_url+'"style="width:170px;"/></td>');
@@ -284,7 +284,7 @@ $("button#casual_pants").click(function() {
             columns: [
                 { title: "Outfits_code",
                   defaultContent:""},
-                { title: "Occasions_",
+                { title: "Category",
                     defaultContent:"" },
 
                 { title: "Bottoms_image",
@@ -330,7 +330,7 @@ $("button#suit_pants").click(function() {
               table5_items = [];
                   table5_items.push(value.fields.Outfits_code);
 
-                  table5_items.push(value.fields.Occasions_);
+                  table5_items.push(value.fields.category_bottom_);
 
 
                   table5_items.push('<td><img src="'+value.fields.Bottoms_image_url+'"style="width:170px;"/></td>');
@@ -350,7 +350,7 @@ $("button#suit_pants").click(function() {
             columns: [
                 { title: "Outfits_code",
                   defaultContent:""},
-                { title: "Occasions_",
+                { title: "Category",
                     defaultContent:"" },
 
                 { title: "Bottoms_image",
@@ -396,7 +396,7 @@ $("button#skirts").click(function() {
               table6_items = [];
                   table6_items.push(value.fields.Outfits_code);
 
-                  table6_items.push(value.fields.Occasions_);
+                  table6_items.push(value.fields.category_bottom_);
 
 
                   table6_items.push('<td><img src="'+value.fields.Bottoms_image_url+'"style="width:170px;"/></td>');
@@ -416,7 +416,7 @@ $("button#skirts").click(function() {
             columns: [
                 { title: "Outfits_code",
                   defaultContent:""},
-                { title: "Occasions_",
+                { title: "Category",
                     defaultContent:"" },
 
                 { title: "Bottoms_image",

@@ -98,12 +98,12 @@ $("button#how_to_match").click(function() {
   $("#div5").hide(1000);
   $("#div6").hide(1000);
   $("#footer").show(1000);
-  $("#how_to_match").show(1000);
-  $("#t_shirts").show(1000);
-  $("#shirts").show(1000);
-  $("#knitwear").show(1000);
-  $("#outer").show(1000);
-  $("#see_chart").show(1000);
+  $("#how_to_match").show(1500);
+  $("#t_shirts").show(1500);
+  $("#shirts").show(1500);
+  $("#knitwear").show(1500);
+  $("#outer").show(1500);
+  $("#see_chart").show(1500);
 
    var table2_items = [];
    var i = 0;
@@ -198,7 +198,7 @@ $("button#t_shirts").click(function() {
               table3_items = [];
                   table3_items.push(value.fields.Outfits_code);
 
-                  table3_items.push(value.fields.Occasions_);
+                  table3_items.push(value.fields.category_);
                   table3_items.push('<td><img src="'+value.fields.Tops_image_url+'"style="width:170px;"/></td>');
                   table3_items.push(value.fields.Tops_price);
 
@@ -218,7 +218,7 @@ $("button#t_shirts").click(function() {
             columns: [
                 { title: "Outfits_code",
                   defaultContent:""},
-                { title: "Occasions_",
+                { title: "Category",
                     defaultContent:"" },
                 { title: "Tops_image",
                     defaultContent:"" },
@@ -263,7 +263,7 @@ $("button#shirts").click(function() {
               table4_items = [];
                   table4_items.push(value.fields.Outfits_code);
 
-                  table4_items.push(value.fields.Occasions_);
+                  table4_items.push(value.fields.category_);
                   table4_items.push('<td><img src="'+value.fields.Tops_image_url+'"style="width:170px;"/></td>');
                   table4_items.push(value.fields.Tops_price);
 
@@ -283,7 +283,7 @@ $("button#shirts").click(function() {
             columns: [
                 { title: "Outfits_code",
                   defaultContent:""},
-                { title: "Occasions_",
+                { title: "Category",
                     defaultContent:"" },
                 { title: "Tops_image",
                     defaultContent:"" },
@@ -328,7 +328,7 @@ $("button#knitwear").click(function() {
               table5_items = [];
                   table5_items.push(value.fields.Outfits_code);
 
-                  table5_items.push(value.fields.Occasions_);
+                  table5_items.push(value.fields.category_);
                   table5_items.push('<td><img src="'+value.fields.Tops_image_url+'"style="width:170px;"/></td>');
                   table5_items.push(value.fields.Tops_price);
 
@@ -348,7 +348,7 @@ $("button#knitwear").click(function() {
             columns: [
                 { title: "Outfits_code",
                   defaultContent:""},
-                { title: "Occasions_",
+                { title: "Category",
                     defaultContent:"" },
                 { title: "Tops_image",
                     defaultContent:"" },
@@ -393,7 +393,7 @@ $("button#outer").click(function() {
               table6_items = [];
                   table6_items.push(value.fields.Outfits_code);
 
-                  table6_items.push(value.fields.Occasions_);
+                  table6_items.push(value.fields.category_);
                   table6_items.push('<td><img src="'+value.fields.Tops_image_url+'"style="width:170px;"/></td>');
                   table6_items.push(value.fields.Tops_price);
 
@@ -413,7 +413,7 @@ $("button#outer").click(function() {
             columns: [
                 { title: "Outfits_code",
                   defaultContent:""},
-                { title: "Occasions_",
+                { title: "Category",
                     defaultContent:"" },
                 { title: "Tops_image",
                     defaultContent:"" },

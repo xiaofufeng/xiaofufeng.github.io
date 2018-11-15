@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>StoryMapJS Demo</title>
+        <!-- Bootstrap core CSS -->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!--script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script-->
+        <link href="http://cdn.leafletjs.com/leaflet-0.7/leaflet.css" rel="stylesheet">
+        <link rel='stylesheet prefetch' href='https://cdn.knightlab.com/libs/storymapjs/latest/css/storymap.css'>
+        <!-- Custom styles for this template -->
+        <title>Autumn Outfits</title>
+        <link rel='shortcut icon' href='https://img.icons8.com/flat_round/50/000000/t-shirt.png' type='image/x-icon'>
+        <!-- Bootstrap core CSS -->
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom styles for this template -->
+        <link href="css/full-slider.css" rel="stylesheet">
+        <!-- Copy teacher -->
+
+
+      <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css"
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements
+        and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+      <!-- Navigation -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">Outfits</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="overview.html">Overview</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="t_shirts.html">Tops</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="bottoms.html">Bottoms</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="map.html">Where to buy</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+        <div class="container">
+          <h1>Where to buy?</h1>
+        </div>
+
+        <!-- +++++ Posts Lists +++++ -->
+        <!-- +++++ First Post +++++ -->
+        <!--div id="grey"-->
+            <div id="mapdiv" style="width: 100%; height: 630px;"></div>
+            <script src='https://cdn.knightlab.com/libs/storymapjs/latest/js/storymap-min.js'></script>
+            <script  src="storymap.js"></script>
+            <!--script>
+                var responseData, temp;
+                function replaceAll(str, find, replace) {
+                    return str.replace(new RegExp(find, 'g'), replace);
+                }
+                var request = new XMLHttpRequest();
+                request.open("GET", "http://localhost/d756a/storymap.json",false);
+                //request.open("GET", "http://localhost/stanley/theme/storymap.json", false);
+                request.send(null);
+                responseData = request.responseText;
+                // temp = replaceAll(responseData,'\u00a0','');
+                // temp = replaceAll(responseData,'"', "");
+                // temp = $(responseData).text().replace(/\u00A0/, " ");
+
+                // responseData = temp2;
+                var my_JSON_object = JSON.parse(responseData);
+                var storymap_data = {
+                    storymap:my_JSON_object,
+                }
+                var storymap_options = {
+                  language: 'en', // required; two-letter ISO language code
+                  map_type: 'osm:standard',          // required
+                  // map_type: 'zoomify',
+                  map_as_image: false, // required
+                  calculate_zoom: true,
+                  map_subdomains: '01234', // optional
+                };
+                var storymap = new VCO.StoryMap('mapdiv', storymap_data, storymap_options);
+                    window.onresize = function(event) {
+                      storymap.updateDisplay(); // this isn't automatic
+                }
+            </script-->
+        <!-- /grey -->
+        <!-- +++++ Second Post +++++ -->
+        <!-- /white -->
+        <!-- +++++ Third Post +++++ -->
+        <!-- /grey -->
+        <!-- +++++ Footer Section +++++ -->
+        <!-- Footer -->
+        <footer class="py-5 bg-dark" style="position:responsive">
+          <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; Outfits 2018</p>
+          </div>
+          <!-- /.container -->
+        </footer>
+        <!-- Bootstrap core JavaScript==================================================-
+        ->
+
+    </body>
+
+</html>

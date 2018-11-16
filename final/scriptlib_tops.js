@@ -507,7 +507,10 @@ $("#outer").show(1000);
              var chart = c3.generate({
                                   data: {
                                       columns: table7_dataSet,
-                                      type : 'bar'
+                                      type : 'bar',
+                                      zoom: {
+                                        enabled: true
+                                    }
                                   },
                                   color: {
                                           pattern: ['#1f77b4','#aec7e8','#aec7e8','#aec7e8','#1f77b4','#1f77b4','#1f77b4','#1f77b4','#aec7e8','#1f77b4','#1f77b4','#1f77b4','#1f77b4','#1f77b4','#1f77b4','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#1f77b4','#aec7e8','#1f77b4','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#1f77b4']

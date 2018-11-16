@@ -86,7 +86,7 @@ $("#footer").show(1000);
                                       type : 'bar'
                                   },
                                   color: {
-                                          pattern: ['#1f77b4','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8']
+                                          pattern: ['#aec7e8','#aec7e8','#1f77b4','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8']
                                       },
                                   axis: {
                                               x: {label: 'Outfits code'},

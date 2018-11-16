@@ -511,10 +511,11 @@ $("#skirts").show(1000);
                                   data: {
                                       columns: table7_dataSet,
                                       type : 'bar',
-                                      zoom: {
-                                        enabled: true
-                                    }
+
                                   },
+                                  zoom: {
+                                    enabled: true
+                                },
                                   color: {
                                           pattern: ['#1f77b4','#aec7e8','#aec7e8','#aec7e8','#1f77b4','#1f77b4','#1f77b4','#1f77b4','#aec7e8','#1f77b4','#1f77b4','#1f77b4','#1f77b4','#1f77b4','#1f77b4','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#1f77b4','#aec7e8','#1f77b4','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#1f77b4']
                                       },

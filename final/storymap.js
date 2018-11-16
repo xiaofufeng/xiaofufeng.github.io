@@ -10,7 +10,7 @@ var storymap_data = {
       date: "2018",
       text: {
         headline: "WHERE TO BUY?",
-        text: "<p>You can find many shopping malls in Hong Kong.<br>Kowloon:count 9;<br>New Territories:count 9;<br>Hong Kong Island:count 2.<br>Click button at right for more information!</p>"
+        text: "<p>You can find many shopping malls in Hong Kong.<br>Kowloon:count 9; New Territories:count 9; Hong Kong Island:count 2.<br>Click button at right for more information!</p>"
       },
       media: {
         url: "https://images.pexels.com/photos/264489/pexels-photo-264489.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350",

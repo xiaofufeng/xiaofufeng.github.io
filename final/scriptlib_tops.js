@@ -515,7 +515,7 @@ $("#zoom").show(1000);
                                   data: {
                                       columns: table7_dataSet,
                                       type : 'bar',
-
+                                      labels: true,
                                   },
                                   zoom: {
                                     enabled: true

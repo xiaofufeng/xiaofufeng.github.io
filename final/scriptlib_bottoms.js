@@ -15,7 +15,7 @@ $(document).ready(function(){
       $("#suit_pants").hide(1000);
       $("#skirts").hide(1000);
       $("#see_chart").hide(1000);
-
+      $("#zoom").hide(1000);
 
 
     }); // end button
@@ -36,7 +36,7 @@ $(document).ready(function(){
     $("#suit_pants").hide(1000);
     $("#skirts").hide(1000);
     $("#see_chart").hide(1000);
-
+    $("#zoom").hide(1000);
 
      var table1_items = [];
      var i = 0;
@@ -125,6 +125,7 @@ $("button#how_to_match").click(function() {
   $("#suit_pants").show(1500);
   $("#skirts").show(1500);
   $("#see_chart").show(1500);
+  $("#zoom").hide(1000);
 
    var table2_items = [];
    var i = 0;
@@ -210,6 +211,7 @@ $("button#jeans").click(function() {
   $("#suit_pants").show(1000);
   $("#skirts").show(1000);
   $("#see_chart").show(1000);
+  $("#zoom").hide(1000);
    var table3_items = [];
    var i = 0;
    var airtable_read_endpoint = "https://api.airtable.com/v0/appENaVzPyNLQlumN/final_jeans?api_key=keytLf7m73sOFf472&maxRecords=40&view=Grid%20view";
@@ -276,6 +278,7 @@ $("button#casual_pants").click(function() {
   $("#suit_pants").show(1000);
   $("#skirts").show(1000);
   $("#see_chart").show(1000);
+  $("#zoom").hide(1000);
    var table4_items = [];
    var i = 0;
    var airtable_read_endpoint = "https://api.airtable.com/v0/appENaVzPyNLQlumN/final_casual_pants?api_key=keytLf7m73sOFf472&maxRecords=40&view=Grid%20view";
@@ -342,6 +345,7 @@ $("button#suit_pants").click(function() {
   $("#suit_pants").show(1000);
   $("#skirts").show(1000);
   $("#see_chart").show(1000);
+  $("#zoom").hide(1000);
    var table5_items = [];
    var i = 0;
    var airtable_read_endpoint = "https://api.airtable.com/v0/appENaVzPyNLQlumN/final_suit_pants?api_key=keytLf7m73sOFf472&maxRecords=40&view=Grid%20view";
@@ -408,6 +412,7 @@ $("button#skirts").click(function() {
   $("#suit_pants").show(1000);
   $("#skirts").show(1000);
   $("#see_chart").show(1000);
+  $("#zoom").hide(1000);
    var table6_items = [];
    var i = 0;
    var airtable_read_endpoint = "https://api.airtable.com/v0/appENaVzPyNLQlumN/final_skirts?api_key=keytLf7m73sOFf472&maxRecords=40&view=Grid%20view";
@@ -476,6 +481,7 @@ $("#jeans").show(1000);
 $("#casual_pants").show(1000);
 $("#suit_pants").show(1000);
 $("#skirts").show(1000);
+$("#zoom").show(1000);
 
 
          var table7_items = [];

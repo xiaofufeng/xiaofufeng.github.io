@@ -15,6 +15,7 @@ $(document).ready(function(){
     $("#knitwear").hide(1000);
     $("#outer").hide(1000);
     $("#see_chart").hide(1000);
+    $("#zoom").hide(1000);
 
 
 
@@ -37,6 +38,7 @@ $(document).ready(function(){
     $("#knitwear").hide(1000);
     $("#outer").hide(1000);
     $("#see_chart").hide(1000);
+    $("#zoom").hide(1000);
 
 
      var table1_items = [];
@@ -126,6 +128,7 @@ $("button#how_to_match").click(function() {
   $("#knitwear").show(1500);
   $("#outer").show(1500);
   $("#see_chart").show(1500);
+  $("#zoom").hide(1000);
 
    var table2_items = [];
    var i = 0;
@@ -211,6 +214,7 @@ $("button#t_shirts").click(function() {
   $("#knitwear").show(1000);
   $("#outer").show(1000);
   $("#see_chart").show(1000);
+  $("#zoom").hide(1000);
    var table3_items = [];
    var i = 0;
    var airtable_read_endpoint = "https://api.airtable.com/v0/appENaVzPyNLQlumN/final_t_shirts?api_key=keytLf7m73sOFf472&maxRecords=40&view=Grid%20view";
@@ -276,6 +280,7 @@ $("button#shirts").click(function() {
   $("#knitwear").show(1000);
   $("#outer").show(1000);
   $("#see_chart").show(1000);
+  $("#zoom").hide(1000);
    var table4_items = [];
    var i = 0;
    var airtable_read_endpoint = "https://api.airtable.com/v0/appENaVzPyNLQlumN/final_shirts?api_key=keytLf7m73sOFf472&maxRecords=40&view=Grid%20view";
@@ -341,6 +346,7 @@ $("button#knitwear").click(function() {
   $("#knitwear").show(1000);
   $("#outer").show(1000);
   $("#see_chart").show(1000);
+  $("#zoom").hide(1000);
    var table5_items = [];
    var i = 0;
    var airtable_read_endpoint = "https://api.airtable.com/v0/appENaVzPyNLQlumN/final_knitwear?api_key=keytLf7m73sOFf472&maxRecords=40&view=Grid%20view";
@@ -406,6 +412,7 @@ $("button#outer").click(function() {
   $("#knitwear").show(1000);
   $("#outer").show(1000);
   $("#see_chart").show(1000);
+  $("#zoom").hide(1000);
    var table6_items = [];
    var i = 0;
    var airtable_read_endpoint = "https://api.airtable.com/v0/appENaVzPyNLQlumN/final_outer?api_key=keytLf7m73sOFf472&maxRecords=40&view=Grid%20view";
@@ -473,7 +480,7 @@ $("#t_shirts").show(1000);
 $("#shirts").show(1000);
 $("#knitwear").show(1000);
 $("#outer").show(1000);
-
+$("#zoom").show(1000);
 
          var table7_items = [];
                   var i = 0;

@@ -14,7 +14,7 @@ var storymap_data = {
       },
       media: {
         url: "https://images.pexels.com/photos/264489/pexels-photo-264489.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350",
-        credit: "Hong Kong",
+        credit: "Hong Kong Shopping Mall",
         caption: ""
       }
     },
@@ -36,7 +36,7 @@ var storymap_data = {
       media: {
         url: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Miramar_Shopping_Centre_Atrium_2015.JPG/500px-Miramar_Shopping_Centre_Atrium_2015.JPG",
         type: 		"image",
-        credit: "Hong Kong",
+        credit: "Mira Place",
         caption: ""
       }
     },

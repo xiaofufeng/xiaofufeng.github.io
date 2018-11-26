@@ -204,7 +204,7 @@ var storymap_data = {
      media: {
        url: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Festival_Walkelevator_20070729.jpg/400px-Festival_Walkelevator_20070729.jpg",
        type: 		"image",
-       credit: "Hong Kong",
+       credit: "Festival Walk",
        caption: ""
      }
    },
@@ -289,7 +289,7 @@ var storymap_data = {
  media: {
    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/2014%E5%B9%B4%E6%9D%B1%E6%B8%AF%E5%9F%8E%E4%B8%80%E6%A8%93%E5%B1%95%E8%A6%BD%E5%A0%B4.jpg/500px-2014%E5%B9%B4%E6%9D%B1%E6%B8%AF%E5%9F%8E%E4%B8%80%E6%A8%93%E5%B1%95%E8%A6%BD%E5%A0%B4.jpg",
    type: 		"image",
-   credit: "Hong Kong",
+   credit: "East Point City",
    caption: ""
  }
 },

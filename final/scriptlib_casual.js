@@ -83,7 +83,8 @@ $("#footer").show(1000);
              var chart = c3.generate({
                                   data: {
                                       columns: table3_dataSet,
-                                      type : 'bar'
+                                      type : 'bar',
+                                      labels: true,
                                   },
                                   color: {
                                           pattern: ['#aec7e8','#aec7e8','#1f77b4','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#1f77b4','#aec7e8','#aec7e8','#aec7e8']
@@ -149,7 +150,8 @@ $("#footer").show(1000);
                   var chart = c3.generate({
                                        data: {
                                            columns: table2_dataSet,
-                                           type : 'bar'
+                                           type : 'bar',
+                                           labels: true,
                                        },
                                        color: {
                                                pattern: ['#1f77b4','#1f77b4','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#1f77b4','#aec7e8','#1f77b4','#1f77b4','#16547F','#16547F']

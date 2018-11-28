@@ -5,6 +5,7 @@ $(document).ready(function(){
 $("#footer").show(1000);
 $("#zoom").hide(1000);
 $("#div2").hide(1000);
+$("#div3").hide(1000);
 $("#div1").show(1000);
          var table1_items = [];
                   var i = 0;
@@ -72,6 +73,7 @@ $("#div1").show(1000);
                           $("button#see_chart").click(function() {
                     $("#div1").hide(1000);
                     $("#div2").hide(1000);
+                    $("#div3").hide(1000);
                     $("#chart").show(1000);
                     $("#footer").show(1000);
 
@@ -144,6 +146,83 @@ $("#div1").show(1000);
 
                                         }); // end .getJSON
                                      }); // end button
+     //see chart of total price
+           $("button#see_chart2").click(function() {
+     $("#div1").hide(1000);
+     $("#div2").hide(1000);
+     $("#div3").hide(1000);
+     $("#chart").show(1000);
+     $("#footer").show(1000);
+
+     $("#zoom").show(1000);
+
+           var table8_items = [];
+                    var i = 0;
+                    var airtable_read_endpoint =
+                    "https://api.airtable.com/v0/appENaVzPyNLQlumN/final_tops?api_key=keytLf7m73sOFf472&maxRecords=40&view=Grid%20view";
+                    var table8_dataSet = [];
+                    $.getJSON(airtable_read_endpoint, function(result) {
+                           $.each(result.records, function(key,value) {
+                               table8_items = [];
+                                   table8_items.push(value.fields.Outfits_code);
+                                   table8_items.push(value.fields.Total_price);
+
+                                   table8_dataSet.push(table8_items);
+                                   console.log(table8_items);
+                            }); // end .each
+                            console.log(table8_dataSet);
+                           $('#table8').DataTable( {
+                               data: table8_dataSet,
+                               retrieve: true,
+                               ordering: false,
+                               columns: [
+                                   { title: "Outfits_code",
+                                     defaultContent:""},
+                                   { title: "Total_price",
+                                     defaultContent:""},
+
+                               ] // rmf columns
+                           } ); // end dataTable
+
+
+               var chart = c3.generate({
+                                    data: {
+                                        columns: table8_dataSet,
+                                        type : 'bar',
+                                        labels: true,
+                                    },
+                                    zoom: {
+                                      enabled: true
+                                  },
+                                    color: {
+                                            pattern: ['#1f77b4','#aec7e8','#aec7e8','#aec7e8','#1f77b4','#1f77b4','#1f77b4','#1f77b4','#aec7e8','#1f77b4','#1f77b4','#1f77b4','#1f77b4','#1f77b4','#1f77b4','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#1f77b4','#aec7e8','#1f77b4','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#1f77b4']
+                                        },
+                                    axis: {
+                                                x: {label: 'Outfits code'},
+                                                y: {label: '# of Total price(HKD)'}
+                                              },
+                                    grid: {
+                                              y: {
+                                                  lines: [
+                                                      {value: 50, text: 'Label 50 for y', position: 'start'},
+
+                                                          ]
+                                                  }
+                                            },
+                                           bar: {
+                                               title: "Total price for Each Outfit:",
+
+                                           width: {
+                                                       ratio:0.6 // this makes bar width 50% of length between ticks
+                                                   },
+                                                   // or
+                                                   //width: 100 // this makes bar width 100px
+                                                  },
+                                });
+
+
+                         }); // end .getJSON
+                      }); // end button
 
 
 }); // document ready

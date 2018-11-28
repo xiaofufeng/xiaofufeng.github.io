@@ -66,7 +66,82 @@ $("#footer").show(1000);
                        }); // end .getJSON
                     }); // end button
 
+                    //see chart of mondy saved
+                          $("button#see_chart").click(function() {
+                    $("#div1").hide(1000);
 
+                    $("#chart").show(1000);
+                    $("#footer").show(1000);
+                    
+                    $("#zoom").show(1000);
+
+                          var table7_items = [];
+                                   var i = 0;
+                                   var airtable_read_endpoint =
+                                   "https://api.airtable.com/v0/appENaVzPyNLQlumN/final_tops?api_key=keytLf7m73sOFf472&maxRecords=40&view=Grid%20view";
+                                   var table7_dataSet = [];
+                                   $.getJSON(airtable_read_endpoint, function(result) {
+                                          $.each(result.records, function(key,value) {
+                                              table7_items = [];
+                                                  table7_items.push(value.fields.Outfits_code);
+                                                  table7_items.push(value.fields.Money_saved);
+
+                                                  table7_dataSet.push(table7_items);
+                                                  console.log(table7_items);
+                                           }); // end .each
+                                           console.log(table7_dataSet);
+                                          $('#table7').DataTable( {
+                                              data: table7_dataSet,
+                                              retrieve: true,
+                                              ordering: false,
+                                              columns: [
+                                                  { title: "Outfits_code",
+                                                    defaultContent:""},
+                                                  { title: "Money_saved",
+                                                    defaultContent:""},
+
+                                              ] // rmf columns
+                                          } ); // end dataTable
+
+
+                              var chart = c3.generate({
+                                                   data: {
+                                                       columns: table7_dataSet,
+                                                       type : 'bar',
+                                                       labels: true,
+                                                   },
+                                                   zoom: {
+                                                     enabled: true
+                                                 },
+                                                   color: {
+                                                           pattern: ['#1f77b4','#aec7e8','#aec7e8','#aec7e8','#1f77b4','#1f77b4','#1f77b4','#1f77b4','#aec7e8','#1f77b4','#1f77b4','#1f77b4','#1f77b4','#1f77b4','#1f77b4','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#1f77b4','#aec7e8','#1f77b4','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#1f77b4']
+                                                       },
+                                                   axis: {
+                                                               x: {label: 'Outfits code'},
+                                                               y: {label: '# of Money saved(HKD)'}
+                                                             },
+                                                   grid: {
+                                                             y: {
+                                                                 lines: [
+                                                                     {value: 50, text: 'Label 50 for y', position: 'start'},
+
+                                                                         ]
+                                                                 }
+                                                           },
+                                                          bar: {
+                                                              title: "Money Saved for Each Outfit:",
+
+                                                          width: {
+                                                                      ratio:0.6 // this makes bar width 50% of length between ticks
+                                                                  },
+                                                                  // or
+                                                                  //width: 100 // this makes bar width 100px
+                                                                 },
+                                               });
+
+
+                                        }); // end .getJSON
+                                     }); // end button
 
 
 }); // document ready

@@ -4,6 +4,7 @@ $(document).ready(function(){
          $("button#see_aggregation").click(function() {
 $("#footer").show(1000);
 $("#zoom").hide(1000);
+$("#div2").hide(1000);
          var table1_items = [];
                   var i = 0;
                   var airtable_read_endpoint =
@@ -69,7 +70,7 @@ $("#zoom").hide(1000);
                     //see chart of mondy saved
                           $("button#see_chart").click(function() {
                     $("#div1").hide(1000);
-
+                    $("#div2").hide(1000);
                     $("#chart").show(1000);
                     $("#footer").show(1000);
 

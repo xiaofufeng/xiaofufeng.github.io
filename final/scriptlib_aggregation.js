@@ -5,6 +5,7 @@ $(document).ready(function(){
 $("#footer").show(1000);
 $("#zoom").hide(1000);
 $("#div2").hide(1000);
+$("#div1").show(1000);
          var table1_items = [];
                   var i = 0;
                   var airtable_read_endpoint =

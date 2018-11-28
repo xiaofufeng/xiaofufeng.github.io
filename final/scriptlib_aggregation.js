@@ -3,7 +3,7 @@ $(document).ready(function(){
    //see chart of aggregation
          $("button#see_aggregation").click(function() {
 $("#footer").show(1000);
-
+$("#zoom").hide(1000);
          var table1_items = [];
                   var i = 0;
                   var airtable_read_endpoint =
@@ -72,7 +72,7 @@ $("#footer").show(1000);
 
                     $("#chart").show(1000);
                     $("#footer").show(1000);
-                    
+
                     $("#zoom").show(1000);
 
                           var table7_items = [];

@@ -3,6 +3,7 @@ $(document).ready(function(){
   $("button#see_outfits").click(function() {
     $("#div1").show(1000);
     $("#footer").show(1000);
+    $("#chart").hide(1000);
      var table1_items = [];
      var i = 0;
      var airtable_read_endpoint = "https://api.airtable.com/v0/appENaVzPyNLQlumN/Party_outfits?api_key=keytLf7m73sOFf472&maxRecords=40&view=Grid%20view";

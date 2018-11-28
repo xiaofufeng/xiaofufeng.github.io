@@ -34,7 +34,8 @@ $("#footer").show(1000);
              var chart = c3.generate({
                                   data: {
                                       columns: table1_dataSet,
-                                      type : 'bar'
+                                      type : 'bar',
+                                      labels: true,
                                   },
                                   color: {
                                           pattern: []

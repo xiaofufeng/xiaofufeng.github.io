@@ -195,7 +195,7 @@ $("#div1").show(1000);
                                       enabled: true
                                   },
                                     color: {
-                                            pattern: ['#1f77b4','#aec7e8','#aec7e8','#aec7e8','#1f77b4','#1f77b4','#1f77b4','#1f77b4','#aec7e8','#1f77b4','#1f77b4','#1f77b4','#1f77b4','#1f77b4','#1f77b4','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#1f77b4','#aec7e8','#1f77b4','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#1f77b4']
+                                            pattern: ['#1f77b4','#1f77b4','#1f77b4','#1f77b4','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#aec7e8','#1f77b4','#aec7e8','#1f77b4','#1f77b4','#1f77b4','#1f77b4','#1f77b4','#1f77b4','#1f77b4','#1f77b4','#16547f','#16547f','#16547f','#16547f','#16547f','#16547f','#16547f','#16547f','#16547f','#aec7e8','#aec7e8','#1f77b4','#1f77b4']
                                         },
                                     axis: {
                                                 x: {label: 'Outfits code'},
@@ -204,7 +204,8 @@ $("#div1").show(1000);
                                     grid: {
                                               y: {
                                                   lines: [
-                                                      {value: 50, text: 'Label 50 for y', position: 'start'},
+                                                    {value: 300, text: 'Label 300 for y', position: 'start'},
+                                                   {value: 600, text: 'Label 600 for y', position: 'start'},
 
                                                           ]
                                                   }

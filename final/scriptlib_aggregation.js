@@ -213,7 +213,7 @@ $("#div1").show(1000);
                                                title: "Total price for Each Outfit:",
 
                                            width: {
-                                                       ratio:0.6 // this makes bar width 50% of length between ticks
+                                                       ratio:0.8 // this makes bar width 50% of length between ticks
                                                    },
                                                    // or
                                                    //width: 100 // this makes bar width 100px

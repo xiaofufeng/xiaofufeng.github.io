@@ -2,6 +2,7 @@ $(document).ready(function(){
 
   $("button#see_outfits").click(function() {
     $("#div1").show(1000);
+    $("#buy_now").show(1000);
     $("#footer").show(1000);
      var table1_items = [];
      var i = 0;

@@ -2,7 +2,7 @@ $(document).ready(function(){
 
   $("button#see_outfits").click(function() {
     $("#div1").show(1000);
-    $("#buy_now").show(1000);
+    $("#purchase").show(1000);
     $("#footer").show(1000);
      var table1_items = [];
      var i = 0;
@@ -14,8 +14,8 @@ $(document).ready(function(){
                     table1_items.push(value.fields.Outfits_code);
 
                     table1_items.push(value.fields.Occasions_);
-                    table1_items.push('<td><img src="'+value.fields.Tops_image_url+'"style="width:200px;"/></td>');
-                    table1_items.push('<td><img src="'+value.fields.Bottoms_image_url+'"style="width:200px;"/></td>');
+                    table1_items.push('<td><img src="'+value.fields.Tops_image_url+'"style="width:185px;"/></td>');
+                    table1_items.push('<td><img src="'+value.fields.Bottoms_image_url+'"style="width:185px;"/></td>');
                     table1_items.push(value.fields.Total_price);
                     table1_items.push(value.fields.Money_saved);
 

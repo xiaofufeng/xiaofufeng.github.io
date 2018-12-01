@@ -2,11 +2,12 @@ $(document).ready(function(){
 
   $("button#see_outfits").click(function() {
     $("#div1").show(1000);
-    $("#buy_now").show(1000);
+    
+    $("#purchase").show(1000);
     $("#footer").show(1000);
      var table1_items = [];
      var i = 0;
-     var airtable_read_endpoint = "https://api.airtable.com/v0/appENaVzPyNLQlumN/Casual_outfits?api_key=keytLf7m73sOFf472&maxRecords=40&view=Grid%20view";
+     var airtable_read_endpoint = "https://api.airtable.com/v0/appENaVzPyNLQlumN/Casual_outfits?api_key=keytLf7m73sOFf472&maxRecords=10&view=Grid%20view";
      var table1_dataSet = [];
      $.getJSON(airtable_read_endpoint, function(result) {
             $.each(result.records, function(key,value) {
@@ -14,8 +15,8 @@ $(document).ready(function(){
                     table1_items.push(value.fields.Outfits_code);
 
                     table1_items.push(value.fields.Occasions_);
-                    table1_items.push('<td><img src="'+value.fields.Tops_image_url+'"style="width:200px;"/></td>');
-                    table1_items.push('<td><img src="'+value.fields.Bottoms_image_url+'"style="width:200px;"/></td>');
+                    table1_items.push('<td><img src="'+value.fields.Tops_image_url+'"style="width:185px;"/></td>');
+                    table1_items.push('<td><img src="'+value.fields.Bottoms_image_url+'"style="width:185px;"/></td>');
                     table1_items.push(value.fields.Total_price);
                     table1_items.push(value.fields.Money_saved);
 

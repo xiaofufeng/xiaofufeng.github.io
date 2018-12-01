@@ -2,7 +2,7 @@ $(document).ready(function(){
 
    //see chart of aggregation
          $("button#see_aggregation").click(function() {
-$("#footer").show(1000);
+
 $("#zoom").hide(1000);
 $("#div2").hide(1000);
 $("#div3").hide(1000);
@@ -75,7 +75,7 @@ $("#div1").show(1000);
                     $("#div2").hide(1000);
                     $("#div3").hide(1000);
                     $("#chart").show(1000);
-                    $("#footer").show(1000);
+
 
                     $("#zoom").show(1000);
 
@@ -152,7 +152,7 @@ $("#div1").show(1000);
      $("#div2").hide(1000);
      $("#div3").hide(1000);
      $("#chart").show(1000);
-     $("#footer").show(1000);
+
 
      $("#zoom").show(1000);
 

@@ -2,7 +2,7 @@ $(document).ready(function(){
 
   $("button#see_outfits").click(function() {
     $("#div1").show(1000);
-    
+
     $("#purchase").show(1000);
     $("#footer").show(1000);
      var table1_items = [];
@@ -29,17 +29,17 @@ $(document).ready(function(){
               data: table1_dataSet,
               retrieve: true,
               columns: [
-                  { title: "Outfits_code",
+                  { title: "Code",
                     defaultContent:""},
-                  { title: "Occasions_",
+                  { title: "Occasions",
                       defaultContent:"" },
-                  { title: "Tops_image",
+                  { title: "Tops",
                       defaultContent:"" },
-                  { title: "Bottoms_image",
+                  { title: "Bottoms",
                       defaultContent:"" },
-                  { title: "Total_price(HKD)",
+                  { title: "Total price(HKD)",
                     defaultContent:"" },
-                  { title: "Money_saved(HKD)",
+                  { title: "Money saved(HKD)",
                     defaultContent:""},
 
               ]

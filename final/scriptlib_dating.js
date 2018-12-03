@@ -53,7 +53,7 @@ $(document).ready(function(){
    //see chart of mondy saved
          $("button#see_money_saved").click(function() {
 $("#div1").hide(1000);
-$("#footer").show(1000);
+$("#chart").show(1000);
          var table3_items = [];
                   var i = 0;
                   var airtable_read_endpoint =
@@ -120,7 +120,7 @@ $("#footer").show(1000);
 
               $("button#see_total_price").click(function() {
      $("#div1").hide(1000);
-     $("#footer").show(1000);
+     $("#chart").show(1000);
               var table2_items = [];
                        var i = 0;
                        var airtable_read_endpoint =
